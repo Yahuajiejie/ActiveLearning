@@ -1,0 +1,28 @@
+{
+  "uuid": "3CN24",
+  "name": "SuperNova Green",
+  "slug": "supernova-green",
+  "seq": "MEVGPALFQSDMTFKIFIDGEVNGQKFTIVADGSSKFPHGDFNAHAVCETGKLPMSWKPICHLIQWGEPFFARYPDGISHFAQECFPEGLSIDRTVRFENDGTMTSHHTYELDDTCVVSRITVNCDGFQPDGPIMRDQLVDILPSETHMFPHGPNAVRQTATIGFTTADGGKMMGHFDSKMTFNGSRAIEIPGPHFVTIITKQTRDTSDKRDHVCQREVAYAHSVPRITSAIGSDED",
+  "ipg_id": null,
+  "genbank": "MH135776",
+  "uniprot": null,
+  "pdb": [],
+  "agg": "m",
+  "switch_type": "b",
+  "states": [
+    {
+      "slug": "supernova-green_default",
+      "name": "default",
+      "ex_max": 440,
+      "em_max": 510,
+      "ext_coeff": 28000,
+      "qy": 0.23,
+      "pka": null,
+      "maturation": null,
+      "lifetime": null,
+      "brightness": 6.44
+    }
+  ],
+  "transitions": [],
+  "doi": "10.1186/s12915-018-0514-7"
+}

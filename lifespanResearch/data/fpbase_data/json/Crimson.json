@@ -1,0 +1,28 @@
+{
+  "uuid": "5HD4W",
+  "name": "Crimson",
+  "slug": "crimson",
+  "seq": "MVSKGEELIKENMRSKLYLEGSVNGHQFKCTHEGEGKPYEGTQTNRIKVVEGGPLPFAFDILATMFMYGSKAFIKYPKGLPDYFKQSFPEGFTWERTMVFEDGGVLTATQDTSLQDGELIYNVKLRGVNFPANGPVMKQTTLGWEPSTETLYPADGALEGRCDMALKLVGGGHLHCNFKTTYKSKKPVKMPGVHYVDRRLERIKEADNETYVEQHEVAVARYCDLPSKLGHKLNGMDELYK",
+  "ipg_id": null,
+  "genbank": "OP047898.1",
+  "uniprot": null,
+  "pdb": [],
+  "agg": "",
+  "switch_type": "b",
+  "states": [
+    {
+      "slug": "crimson_crimson",
+      "name": "Crimson",
+      "ex_max": 588,
+      "em_max": 617,
+      "ext_coeff": 77000,
+      "qy": 0.42,
+      "pka": 4.2,
+      "maturation": 14.0,
+      "lifetime": null,
+      "brightness": 32.34
+    }
+  ],
+  "transitions": [],
+  "doi": "10.3389/fcell.2022.893468"
+}

@@ -1,0 +1,15 @@
+{
+  "uuid": "L9VOW",
+  "name": "pFAST",
+  "slug": "pfast",
+  "seq": "MEHVAFGSEDIENTLANMDDEQLDRLAFGVIQLDGDGNILLYNAAEGDITGRDPKQVIGKNFFKDVAPGTDTPEFYGKFKEGAASGNLNTMFEWTIPTSRGPTKVKVHLKKALSGDRYWVFVKRV",
+  "ipg_id": null,
+  "genbank": null,
+  "uniprot": null,
+  "pdb": [],
+  "agg": "",
+  "switch_type": "b",
+  "states": [],
+  "transitions": [],
+  "doi": "10.1038/s41467-021-27334-0"
+}

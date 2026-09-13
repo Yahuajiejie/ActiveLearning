@@ -1,0 +1,28 @@
+{
+  "uuid": "2TAPF",
+  "name": "cpEYFP(V68L/Q69K)",
+  "slug": "cpeyfpv68lq69k",
+  "seq": null,
+  "ipg_id": null,
+  "genbank": null,
+  "uniprot": null,
+  "pdb": [],
+  "agg": "",
+  "switch_type": "b",
+  "states": [
+    {
+      "slug": "cpeyfpv68lq69k_default",
+      "name": "default",
+      "ex_max": 506,
+      "em_max": 520,
+      "ext_coeff": null,
+      "qy": null,
+      "pka": null,
+      "maturation": null,
+      "lifetime": null,
+      "brightness": null
+    }
+  ],
+  "transitions": [],
+  "doi": "10.1073/pnas.051636098"
+}

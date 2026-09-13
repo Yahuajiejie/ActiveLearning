@@ -1,0 +1,28 @@
+{
+  "uuid": "3Z9FM",
+  "name": "Diogenes",
+  "slug": "diogenes",
+  "seq": "MVSELIKENMHMKLYMEGTVNNHHFKCTSEGEGKPYEGTQTMRIKAVEGGPLPFAFDILATSFMYGSRTFINHTQGIPDFFKQSFPEGFTWERVTTYEDGGVLTATQDTSLQDGCLIYNVKIRGVNFPSNGPVMQKKTLGWEASTETLYPADGGLEGRADMALKLVGGGHLICNLKTTYRSKKPAKNLKMPGVYYVDHRLERIKEADKETYVEQHEVAVARYCDLPSKLGHR",
+  "ipg_id": null,
+  "genbank": null,
+  "uniprot": null,
+  "pdb": [],
+  "agg": "m",
+  "switch_type": "b",
+  "states": [
+    {
+      "slug": "diogenes_default",
+      "name": "default",
+      "ex_max": 579,
+      "em_max": 603,
+      "ext_coeff": 90000,
+      "qy": 0.44,
+      "pka": 6.1,
+      "maturation": null,
+      "lifetime": 2.2,
+      "brightness": 39.6
+    }
+  ],
+  "transitions": [],
+  "doi": "10.32607/actanaturae.27545"
+}

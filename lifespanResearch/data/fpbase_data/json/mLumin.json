@@ -1,0 +1,28 @@
+{
+  "uuid": "UQCHR",
+  "name": "mLumin",
+  "slug": "mlumin",
+  "seq": "MSELIKENMHMKLYMEGTVNNHHFKCTSEGEGKPYEGTQTMRIKVVEGGPLPFAFDILATSFMYGSKTFINHTQGIPDFFKQSFPEGFTWERVTTYEDGGVLTATQDTSLQDGCLIYNVKIRGVNFPSNGPVMQKKTLGWEAATEMLYPADGGLEGRSDMALKLVGGGHLICNLKTTYRSKKPAKNLKMPGVYYVDRRLERIKEADKETYVEQHEVAVARYCDLPSKLGHK",
+  "ipg_id": null,
+  "genbank": null,
+  "uniprot": null,
+  "pdb": [],
+  "agg": "m",
+  "switch_type": "b",
+  "states": [
+    {
+      "slug": "mlumin_default",
+      "name": "default",
+      "ex_max": 587,
+      "em_max": 621,
+      "ext_coeff": 70000,
+      "qy": 0.46,
+      "pka": 4.7,
+      "maturation": 76.0,
+      "lifetime": null,
+      "brightness": 32.2
+    }
+  ],
+  "transitions": [],
+  "doi": "10.1016/j.bios.2009.06.008"
+}

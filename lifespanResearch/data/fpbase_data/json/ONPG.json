@@ -1,0 +1,15 @@
+{
+  "uuid": "6GSPJ",
+  "name": "ONPG",
+  "slug": "onpg",
+  "seq": null,
+  "ipg_id": null,
+  "genbank": null,
+  "uniprot": null,
+  "pdb": [],
+  "agg": "",
+  "switch_type": "",
+  "states": [],
+  "transitions": [],
+  "doi": "10.1016/j.procbio.2009.07.015"
+}

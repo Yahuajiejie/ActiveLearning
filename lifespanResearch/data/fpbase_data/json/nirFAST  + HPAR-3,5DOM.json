@@ -1,0 +1,28 @@
+{
+  "uuid": "68RZA",
+  "name": "nirFAST  + HPAR-3,5DOM",
+  "slug": "nirfast-hpar-35dom",
+  "seq": "MEHVAFGSEDIENTLAKMDDGQLDGLAFGAVQLDGNGNILKYSAAQGGITGKDPKQVIGKNLFKDVAPGSVSSGFYGIFKEGVASGNLNTMFEWMIPTSRGPTKVKVHMKKALSGDSYWVFVKRV",
+  "ipg_id": null,
+  "genbank": null,
+  "uniprot": null,
+  "pdb": [],
+  "agg": "m",
+  "switch_type": "b",
+  "states": [
+    {
+      "slug": "nirfast-hpar-35dom_default",
+      "name": "default",
+      "ex_max": 636,
+      "em_max": 713,
+      "ext_coeff": 46000,
+      "qy": 0.067,
+      "pka": null,
+      "maturation": null,
+      "lifetime": null,
+      "brightness": 3.08
+    }
+  ],
+  "transitions": [],
+  "doi": "10.1038/s41467-025-58017-9"
+}

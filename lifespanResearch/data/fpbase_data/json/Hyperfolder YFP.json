@@ -1,0 +1,30 @@
+{
+  "uuid": "YX459",
+  "name": "Hyperfolder YFP",
+  "slug": "hyperfolder-yfp",
+  "seq": "MVSKGEELFTGVVPILVELDGDVNGHKFSVRGEGEGDATNGKLTLKLISTTGKLPVPWPTLVTTLGYGLMVFARYPDHMKQHDFFKSAMPEGYVQERTISFEDDGYYKTRAEVKFEGDTLVNRIVLKGIDFKEDGNILGHKLEYNFNSHNVYITADKQKNGIKANFKIRHNVEDGGVQLADHYQQNTPIGDGPVLLPDNHYLSYQSVLSKDPNEKRDHMVLKERVTAAGITHDMNELYK",
+  "ipg_id": null,
+  "genbank": "OP373686",
+  "uniprot": null,
+  "pdb": [
+    "7UGR"
+  ],
+  "agg": "wd",
+  "switch_type": "b",
+  "states": [
+    {
+      "slug": "hyperfolder-yfp_default",
+      "name": "default",
+      "ex_max": 514,
+      "em_max": 529,
+      "ext_coeff": 119500,
+      "qy": 0.6,
+      "pka": 5.6,
+      "maturation": 21.0,
+      "lifetime": null,
+      "brightness": 71.7
+    }
+  ],
+  "transitions": [],
+  "doi": "10.1038/s41592-022-01660-7"
+}

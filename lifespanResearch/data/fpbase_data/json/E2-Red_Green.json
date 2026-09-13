@@ -1,0 +1,28 @@
+{
+  "uuid": "VB2NB",
+  "name": "E2-Red/Green",
+  "slug": "e2-redgreen",
+  "seq": "MDSTENVIKPFMRFKVHMEGSVNGHEFEIEGEGEGKPYEGTHTVKLQVTKGGPLPFAWDILSPQFQYGSKVYVKHPADIPDYKKLSFPEGFKWERVMNFEDGGVVTVTQDSSLQDGTFIYHVKFIGVNFPSDGPVMQKKTLGWEPSTERLYPRDGVLKGEIHKALKLKGGGHYLVEFKSIYMAKKPVKLPGYYYVDSKLDITSHNEDYTVVEQYERTEGRHHLFQ",
+  "ipg_id": null,
+  "genbank": "FJ498892",
+  "uniprot": null,
+  "pdb": [],
+  "agg": "",
+  "switch_type": "b",
+  "states": [
+    {
+      "slug": "e2-redgreen_default",
+      "name": "default",
+      "ex_max": 560,
+      "em_max": 585,
+      "ext_coeff": 53800,
+      "qy": 0.67,
+      "pka": 4.5,
+      "maturation": 72.0,
+      "lifetime": null,
+      "brightness": 36.05
+    }
+  ],
+  "transitions": [],
+  "doi": "10.1186/1472-6750-9-32"
+}

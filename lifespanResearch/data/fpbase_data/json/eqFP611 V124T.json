@@ -1,0 +1,30 @@
+{
+  "uuid": "ALL3F",
+  "name": "eqFP611 V124T",
+  "slug": "eqfp611-v124t",
+  "seq": "MNSLIKENMRMMVVMEGSVNGYQFKCTGEGDGNPYMGTQTMRIKVVEGGPLPFAFDILATSFMYGSKTFIKHTKGIPDFFKQSFPEGFTWERVTRYEDGGVFTVMQDTSLEDGCLVYHAKVTGTNFPSNGAVMQKKTKGWEPNTEMLYPADGGLRGYSQMALNVDGGGYLSCSFETTYRSKKTVENFKMPGFHFVDHRLERLEESDKEMFVVQHEHAVAKFCDLPSKLGRL",
+  "ipg_id": null,
+  "genbank": null,
+  "uniprot": null,
+  "pdb": [
+    "3E5T"
+  ],
+  "agg": "d",
+  "switch_type": "b",
+  "states": [
+    {
+      "slug": "eqfp611-v124t_default",
+      "name": "default",
+      "ex_max": 559,
+      "em_max": 611,
+      "ext_coeff": 74000,
+      "qy": 0.42,
+      "pka": null,
+      "maturation": 450.0,
+      "lifetime": null,
+      "brightness": 31.08
+    }
+  ],
+  "transitions": [],
+  "doi": "10.1117/1.1854680"
+}

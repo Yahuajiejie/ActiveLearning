@@ -1,0 +1,28 @@
+{
+  "uuid": "OORFP",
+  "name": "R3-2+PCB",
+  "slug": "r3-2pcb",
+  "seq": "MKTGEQRVKIATLLSENEKKIVDKASQDLWRRRPDFIAPGGIAFGQRERALCLRDYGWYLRLITFCLLAGDKDPIESIGLIGIREMYNSLGVPVPGMMESIRCLKEASLSLLDEEDAKETAPYFDYIIQAMS",
+  "ipg_id": null,
+  "genbank": null,
+  "uniprot": null,
+  "pdb": [],
+  "agg": "",
+  "switch_type": "b",
+  "states": [
+    {
+      "slug": "r3-2pcb_default",
+      "name": "default",
+      "ex_max": 620,
+      "em_max": 648,
+      "ext_coeff": 74000,
+      "qy": 0.13,
+      "pka": null,
+      "maturation": null,
+      "lifetime": null,
+      "brightness": 9.62
+    }
+  ],
+  "transitions": [],
+  "doi": "10.1038/nmeth.3935"
+}

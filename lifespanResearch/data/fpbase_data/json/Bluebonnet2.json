@@ -1,0 +1,28 @@
+{
+  "uuid": "JSPPN",
+  "name": "Bluebonnet2",
+  "slug": "bluebonnet2",
+  "seq": "MSEELIKENMHMKLYMEGWVDNHHFKCTAEGEGKPYEGTQTMRIKVVEGGPLPFAFDILATSFLYGSKTFIDHTQGIPDFFKQSFPEGFTWERVTTYEDGGVLTATQDTSLQDGVLIYNVKIRGWDFPSNGPVMQKKTLGWEAFTETLYPADGGLEGRTDMALKLVGGSHLIATAKTTYRSKKPAKNLKMPGVYYVDYRLERIKEANDETYVEQHEVAVARYSDLPSKLGHKLN",
+  "ipg_id": null,
+  "genbank": null,
+  "uniprot": null,
+  "pdb": [],
+  "agg": "m",
+  "switch_type": "b",
+  "states": [
+    {
+      "slug": "bluebonnet2_default",
+      "name": "default",
+      "ex_max": 399,
+      "em_max": 454,
+      "ext_coeff": null,
+      "qy": null,
+      "pka": null,
+      "maturation": null,
+      "lifetime": null,
+      "brightness": null
+    }
+  ],
+  "transitions": [],
+  "doi": "10.1021/acssynbio.0c00345"
+}

@@ -1,0 +1,28 @@
+{
+  "uuid": "STCSK",
+  "name": "mScarlet3-S2",
+  "slug": "mscarlet3-s2",
+  "seq": "MDSTEAVIKEFMRFKVHMEGSMNGHEFEIEGEGEGRPYEGTQTAKLRVTKGGPLPFSWDILSPQFQYGSRAFTKHPADIPDYWKQSFPEGFKWERVMNFEDGGAVSVAQDTSLEDGTLIYKVKLRGTNFPPDGPVMQKKTMGWEASTERLYPEDVVLKGDIKHALRLKDGGRYLADFKTTYRAKKPVQMPGAFNIDRKLDITSHNEDYTVVEQYERSVARHSTGGSGGS",
+  "ipg_id": null,
+  "genbank": null,
+  "uniprot": null,
+  "pdb": [],
+  "agg": "m",
+  "switch_type": "b",
+  "states": [
+    {
+      "slug": "mscarlet3-s2_mscarlet3-s2",
+      "name": "mScarlet3-S2",
+      "ex_max": 550,
+      "em_max": 587,
+      "ext_coeff": 83000,
+      "qy": 0.18,
+      "pka": 3.3,
+      "maturation": 47.0,
+      "lifetime": null,
+      "brightness": 14.94
+    }
+  ],
+  "transitions": [],
+  "doi": "10.21203/rs.3.rs-5629743/v1"
+}

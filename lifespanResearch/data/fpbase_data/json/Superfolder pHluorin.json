@@ -1,0 +1,15 @@
+{
+  "uuid": "92266",
+  "name": "Superfolder pHluorin",
+  "slug": "superfolder-phluorin",
+  "seq": "MSKGEELFTGVVPILVELDGDVNGHKFSVRGEGEGDATNGKLTLKFICTTGKLPVPWPTLVTTLSYGVQCFSRYPDHMKRHDFFKSAMPEGYVQERTISFKDDGTYKTRAEVKFEGDTLVNRIELKGIDFKEDGNILGHKLEYNFNEHLVYITADKQKNGTKAIFQVHHNVEDGSVQLADHYQQNTPIGDGPVLLPDNHYLHTQSVLSKDPNEKRDHMVLLEFVTAAGITHGMDELYK",
+  "ipg_id": null,
+  "genbank": null,
+  "uniprot": null,
+  "pdb": [],
+  "agg": "",
+  "switch_type": "o",
+  "states": [],
+  "transitions": [],
+  "doi": "10.1038/s41598-018-30367-z"
+}

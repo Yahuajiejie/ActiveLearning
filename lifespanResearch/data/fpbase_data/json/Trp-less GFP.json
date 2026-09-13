@@ -1,0 +1,18 @@
+{
+  "uuid": "9ZKVW",
+  "name": "Trp-less GFP",
+  "slug": "trp-less-gfp",
+  "seq": "KSKGEELFAGVVPILVELDGDVNGHKFSVSGEGEGDATYGKLTLKFICTTGKLPVPFPTLVTTLSYGVQCFSRYPDHMKRHDFFKSAMPEGYVQERTISFKDDGNYKTRAEVKFEGDTLVNRIELKGIDFKEDGNILGHKLEYNYNSHNVYITADKQKNGIKANFKIRHNIEDGSVQLADHYQQNTPIGDGPVLLPDNHCLSTQTVLSKDPNEKRDHMVLLEFVTAAGI",
+  "ipg_id": null,
+  "genbank": null,
+  "uniprot": null,
+  "pdb": [
+    "3UG0",
+    "3UFZ"
+  ],
+  "agg": "",
+  "switch_type": "",
+  "states": [],
+  "transitions": [],
+  "doi": "10.1093/nar/gks786"
+}

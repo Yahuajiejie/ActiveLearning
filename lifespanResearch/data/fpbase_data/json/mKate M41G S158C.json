@@ -1,0 +1,28 @@
+{
+  "uuid": "26VNF",
+  "name": "mKate M41G S158C",
+  "slug": "mkate-m41g-s158c",
+  "seq": "MSELIKENMHMKLYMEGTVNNHHFKCTSEGEGKPYEGTQTGRIKVVEGGPLPFAFDILATSFMYGSKTFINHTQGIPDFFKQSFPEGFTWERVTTYEDGGVLTATQDTSLQDGCLIYNVKIRGVNFPSNGPVMQKKTLGWEASTEMLYPADGGLEGRCDMALKLVGGGHLICNLKTTYRSKKPAKNLKMPGVYYVDRRLERIKEADKETYVEQHEVAVARYCDLPSKLGHK",
+  "ipg_id": null,
+  "genbank": null,
+  "uniprot": null,
+  "pdb": [],
+  "agg": "m",
+  "switch_type": "b",
+  "states": [
+    {
+      "slug": "mkate-m41g-s158c_default",
+      "name": "default",
+      "ex_max": 593,
+      "em_max": 648,
+      "ext_coeff": 73000,
+      "qy": 0.22,
+      "pka": null,
+      "maturation": null,
+      "lifetime": null,
+      "brightness": 16.06
+    }
+  ],
+  "transitions": [],
+  "doi": "10.1016/j.chembiol.2009.10.009"
+}

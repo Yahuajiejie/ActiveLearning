@@ -1,0 +1,46 @@
+{
+  "uuid": "9KH59",
+  "name": "mEos4Fast2",
+  "slug": "meos4fast2",
+  "seq": "MVSAIKPDMRIKLRMEGNVNGHHFVIDGDGTGKPYEGKQTMDLEVKEGGPLPFAFDILTQAFHYGNRVFVKYPDNIQDYFKQSFPKGYSWERSMTFEDGGICNARNDITMEGDTFYNKVRFYGTNFPANGPVMQKKTLKWEPSTEKMYVRDGVLTGDIEMALLLEGNAHYRCDFRTTYKAKEKGVKLPGAHFVDHAIEILSHDKDYNKVKLYEHAVAHSGLPDNARR",
+  "ipg_id": null,
+  "genbank": null,
+  "uniprot": null,
+  "pdb": [],
+  "agg": "m",
+  "switch_type": "pc",
+  "states": [
+    {
+      "slug": "meos4fast2_green",
+      "name": "Green",
+      "ex_max": 499,
+      "em_max": 513,
+      "ext_coeff": 78020,
+      "qy": 0.82,
+      "pka": 4.9,
+      "maturation": 27.0,
+      "lifetime": null,
+      "brightness": 63.98
+    },
+    {
+      "slug": "meos4fast2_red",
+      "name": "Red",
+      "ex_max": 565,
+      "em_max": 580,
+      "ext_coeff": 43290,
+      "qy": 0.54,
+      "pka": 5.4,
+      "maturation": null,
+      "lifetime": null,
+      "brightness": 23.38
+    }
+  ],
+  "transitions": [
+    {
+      "from_state": "meos4fast2_green",
+      "to_state": "meos4fast2_red",
+      "trans_wave": 405
+    }
+  ],
+  "doi": "10.1002/pro.70234"
+}

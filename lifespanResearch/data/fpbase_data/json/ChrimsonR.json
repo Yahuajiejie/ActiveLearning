@@ -1,0 +1,28 @@
+{
+  "uuid": "T35YF",
+  "name": "ChrimsonR",
+  "slug": "chrimsonr",
+  "seq": null,
+  "ipg_id": null,
+  "genbank": null,
+  "uniprot": null,
+  "pdb": [],
+  "agg": "",
+  "switch_type": "b",
+  "states": [
+    {
+      "slug": "chrimsonr_excitation",
+      "name": "Excitation",
+      "ex_max": 600,
+      "em_max": null,
+      "ext_coeff": null,
+      "qy": null,
+      "pka": null,
+      "maturation": null,
+      "lifetime": null,
+      "brightness": null
+    }
+  ],
+  "transitions": [],
+  "doi": "10.1038/nmeth.2836"
+}

@@ -1,0 +1,28 @@
+{
+  "uuid": "6TP83",
+  "name": "Lumazine binding protein",
+  "slug": "lumazine-binding-protein",
+  "seq": "MFRGIVQGRGVIRSISKSEDSQRHGIAFPEGMFQLVDVDTVMLVNGCSLTVVRILGDMVYFDIDQALGTTTFDGLKEGDQVNLEIHPKFGEVVGRGGLTGNIKGTALVAAIEENDAGFSVLIDIPKGLAENLTVKDDIGIDGISLPITDMSDSIITLNYSRDLLASTNIASLAKDVKVNVEILNEW",
+  "ipg_id": null,
+  "genbank": null,
+  "uniprot": null,
+  "pdb": [],
+  "agg": "",
+  "switch_type": "b",
+  "states": [
+    {
+      "slug": "lumazine-binding-protein_default",
+      "name": "default",
+      "ex_max": 420,
+      "em_max": 470,
+      "ext_coeff": null,
+      "qy": 0.55,
+      "pka": null,
+      "maturation": null,
+      "lifetime": 13.6,
+      "brightness": null
+    }
+  ],
+  "transitions": [],
+  "doi": "10.1073/pnas.1424021112"
+}

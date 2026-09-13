@@ -1,0 +1,28 @@
+{
+  "uuid": "BOF2S",
+  "name": "Superfolder BFP",
+  "slug": "superfolder-bfp",
+  "seq": "MSKGEELFTGVVPILVELDGDVNGHKFSVRGEGEGDATNGKLTLKFICTTGKLPVPWPTLVTTLTHGVQCFSRYPDHMKRHDFFKSAMPEGYVQERTISFKDDGTYKTRAEVKFEGDTLVNRIELKGIDFKEDGNILGHKLEYNFNSHNVYITADKQKNGIKANFKIRHNVEDGSVQLADHYQQNTPIGDGPVLLPDNHYLSTQSVLSKDPNEKRDHMVLLEFVTAAGITHGMDELYK",
+  "ipg_id": null,
+  "genbank": null,
+  "uniprot": null,
+  "pdb": [],
+  "agg": "",
+  "switch_type": "b",
+  "states": [
+    {
+      "slug": "superfolder-bfp_single",
+      "name": "Single",
+      "ex_max": 380,
+      "em_max": 445,
+      "ext_coeff": null,
+      "qy": null,
+      "pka": null,
+      "maturation": null,
+      "lifetime": null,
+      "brightness": null
+    }
+  ],
+  "transitions": [],
+  "doi": "10.1038/nbt1172"
+}

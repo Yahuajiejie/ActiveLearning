@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="760" viewBox="0 0 1280 760">
+<defs>
+<linearGradient id="area" x1="0" x2="0" y1="0" y2="1">
+<stop offset="0%" stop-color="#2E9CCA" stop-opacity="0.22"/>
+<stop offset="100%" stop-color="#2E9CCA" stop-opacity="0.02"/>
+</linearGradient>
+<filter id="shadow" x="-15%" y="-15%" width="130%" height="130%">
+<feDropShadow dx="0" dy="5" stdDeviation="7" flood-color="#000000" flood-opacity="0.10"/>
+</filter>
+<style>
+.font{font-family:Arial,Helvetica,sans-serif;fill:#111}
+.title{font-size:34px;font-weight:800}
+.subtitle{font-size:18px;fill:#555}
+.axis{stroke:#111;stroke-width:2.2}
+.grid{stroke:#d9dee3;stroke-width:1.4}
+.tick{font-size:15px;fill:#4a4a4a}
+.label{font-size:18px;font-weight:700;fill:#222}
+.note{font-size:16px;fill:#555}
+</style>
+</defs>
+<rect width="1280" height="760" fill="#ffffff"/>
+<rect x="42" y="38" width="1196" height="664" rx="28" fill="#fbfdff" filter="url(#shadow)"/>
+<text class="font title" x="640" y="74" text-anchor="middle">Masked Token Prediction Accuracy</text>
+<text class="font subtitle" x="640" y="104" text-anchor="middle">ESMC-600M MLM fine-tuning on fluorescent protein sequences</text>
+<line class="grid" x1="118" y1="564.77" x2="1208" y2="564.77"/>
+<text class="font tick" x="103" y="569.77" text-anchor="end">75</text>
+<line class="grid" x1="118" y1="450.45" x2="1208" y2="450.45"/>
+<text class="font tick" x="103" y="455.45" text-anchor="end">80</text>
+<line class="grid" x1="118" y1="336.13" x2="1208" y2="336.13"/>
+<text class="font tick" x="103" y="341.13" text-anchor="end">85</text>
+<line class="grid" x1="118" y1="221.82" x2="1208" y2="221.82"/>
+<text class="font tick" x="103" y="226.82" text-anchor="end">90</text>
+<line class="grid" x1="118" y1="107.50" x2="1208" y2="107.50"/>
+<text class="font tick" x="103" y="112.50" text-anchor="end">95</text>
+<line class="grid" x1="118.00" y1="92" x2="118.00" y2="628"/>
+<text class="font tick" x="118.00" y="656" text-anchor="middle">1</text>
+<line class="grid" x1="347.47" y1="92" x2="347.47" y2="628"/>
+<text class="font tick" x="347.47" y="656" text-anchor="middle">5</text>
+<line class="grid" x1="634.32" y1="92" x2="634.32" y2="628"/>
+<text class="font tick" x="634.32" y="656" text-anchor="middle">10</text>
+<line class="grid" x1="921.16" y1="92" x2="921.16" y2="628"/>
+<text class="font tick" x="921.16" y="656" text-anchor="middle">15</text>
+<line class="grid" x1="1208.00" y1="92" x2="1208.00" y2="628"/>
+<text class="font tick" x="1208.00" y="656" text-anchor="middle">20</text>
+<line class="axis" x1="118" y1="628" x2="1208" y2="628"/>
+<line class="axis" x1="118" y1="92" x2="118" y2="628"/>
+<polygon points="118.00,628.00 118.00,559.41 175.37,460.31 232.74,404.74 290.11,367.77 347.47,323.38 404.84,321.28 462.21,264.24 519.58,271.20 576.95,240.08 634.32,223.79 691.68,210.61 749.05,192.73 806.42,199.14 863.79,160.59 921.16,188.85 978.53,173.84 1035.89,176.95 1093.26,177.07 1150.63,171.03 1208.00,166.81 1208.00,628.00" fill="url(#area)"/>
+<polyline points="118.00,559.41 175.37,460.31 232.74,404.74 290.11,367.77 347.47,323.38 404.84,321.28 462.21,264.24 519.58,271.20 576.95,240.08 634.32,223.79 691.68,210.61 749.05,192.73 806.42,199.14 863.79,160.59 921.16,188.85 978.53,173.84 1035.89,176.95 1093.26,177.07 1150.63,171.03 1208.00,166.81" fill="none" stroke="#2E9CCA" stroke-width="5.5" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="118.00" cy="559.41" r="4.8" fill="#2E9CCA" stroke="#ffffff" stroke-width="2"/>
+<circle cx="175.37" cy="460.31" r="4.8" fill="#2E9CCA" stroke="#ffffff" stroke-width="2"/>
+<circle cx="232.74" cy="404.74" r="4.8" fill="#2E9CCA" stroke="#ffffff" stroke-width="2"/>
+<circle cx="290.11" cy="367.77" r="4.8" fill="#2E9CCA" stroke="#ffffff" stroke-width="2"/>
+<circle cx="347.47" cy="323.38" r="4.8" fill="#2E9CCA" stroke="#ffffff" stroke-width="2"/>
+<circle cx="404.84" cy="321.28" r="4.8" fill="#2E9CCA" stroke="#ffffff" stroke-width="2"/>
+<circle cx="462.21" cy="264.24" r="4.8" fill="#2E9CCA" stroke="#ffffff" stroke-width="2"/>
+<circle cx="519.58" cy="271.20" r="4.8" fill="#2E9CCA" stroke="#ffffff" stroke-width="2"/>
+<circle cx="576.95" cy="240.08" r="4.8" fill="#2E9CCA" stroke="#ffffff" stroke-width="2"/>
+<circle cx="634.32" cy="223.79" r="4.8" fill="#2E9CCA" stroke="#ffffff" stroke-width="2"/>
+<circle cx="691.68" cy="210.61" r="4.8" fill="#2E9CCA" stroke="#ffffff" stroke-width="2"/>
+<circle cx="749.05" cy="192.73" r="4.8" fill="#2E9CCA" stroke="#ffffff" stroke-width="2"/>
+<circle cx="806.42" cy="199.14" r="4.8" fill="#2E9CCA" stroke="#ffffff" stroke-width="2"/>
+<circle cx="863.79" cy="160.59" r="4.8" fill="#2E9CCA" stroke="#ffffff" stroke-width="2"/>
+<circle cx="921.16" cy="188.85" r="4.8" fill="#2E9CCA" stroke="#ffffff" stroke-width="2"/>
+<circle cx="978.53" cy="173.84" r="4.8" fill="#2E9CCA" stroke="#ffffff" stroke-width="2"/>
+<circle cx="1035.89" cy="176.95" r="4.8" fill="#2E9CCA" stroke="#ffffff" stroke-width="2"/>
+<circle cx="1093.26" cy="177.07" r="4.8" fill="#2E9CCA" stroke="#ffffff" stroke-width="2"/>
+<circle cx="1150.63" cy="171.03" r="4.8" fill="#2E9CCA" stroke="#ffffff" stroke-width="2"/>
+<circle cx="1208.00" cy="166.81" r="4.8" fill="#2E9CCA" stroke="#ffffff" stroke-width="2"/>
+<circle cx="118.00" cy="559.41" r="8.5" fill="#7c8a95" stroke="#ffffff" stroke-width="3"/>
+<rect x="82.00" y="565.41" width="132" height="32" rx="10" fill="#ffffff" stroke="#7c8a95" stroke-width="2"/>
+<text class="font tick" x="94.00" y="585.41">start: 75.2%</text>
+<circle cx="1208.00" cy="166.81" r="8.5" fill="#1f7a4d" stroke="#ffffff" stroke-width="3"/>
+<rect x="1126.00" y="114.81" width="132" height="32" rx="10" fill="#ffffff" stroke="#1f7a4d" stroke-width="2"/>
+<text class="font tick" x="1138.00" y="134.81">final: 92.4%</text>
+<circle cx="863.79" cy="160.59" r="8.5" fill="#ef8a4c" stroke="#ffffff" stroke-width="3"/>
+<rect x="799.79" y="102.59" width="123" height="32" rx="10" fill="#ffffff" stroke="#ef8a4c" stroke-width="2"/>
+<text class="font tick" x="811.79" y="122.59">best: 92.7%</text>
+<text class="font label" x="663.00" y="702" text-anchor="middle">Epoch</text>
+<text class="font label" x="42" y="360.00" text-anchor="middle" transform="rotate(-90 42 360.00)">Masked accuracy (%)</text>
+<text class="font note" x="118" y="735">Accuracy improved from 75.2% to 92.4% over 20 epochs; peak accuracy reached 92.7% at epoch 14.</text>
+</svg>

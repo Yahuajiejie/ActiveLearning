@@ -1,0 +1,40 @@
+{
+  "uuid": "KPFB9",
+  "name": "pHluorin, ecliptic",
+  "slug": "phluorin-ecliptic",
+  "seq": "MSKGEELFTGVVPILVELDGDVNGHKFSVSGEGEGDATYGKLTLKFICTTGKLPVPWPTLVTTFSYGVQCFSRYPDHMKRHDFFKSAMPEGYVQERTIFFKDDGNYKTRAEVKFEGDTLVNRIELKGIDFKEDGNILGHKLEYNYNDHQVYIMADKQKNGIKANFKIRHNIEDGGVQLADHYQQNTPIGDGPVLLPDNHYLFTTSTLSKDPNEKRDHMVLLEFVTAAGITHGMDELYK",
+  "ipg_id": null,
+  "genbank": "AAC40226",
+  "uniprot": null,
+  "pdb": [],
+  "agg": "",
+  "switch_type": "o",
+  "states": [
+    {
+      "slug": "phluorin-ecliptic_acidic",
+      "name": "acidic",
+      "ex_max": 395,
+      "em_max": 509,
+      "ext_coeff": null,
+      "qy": null,
+      "pka": null,
+      "maturation": null,
+      "lifetime": null,
+      "brightness": null
+    },
+    {
+      "slug": "phluorin-ecliptic_default",
+      "name": "default",
+      "ex_max": 395,
+      "em_max": 509,
+      "ext_coeff": null,
+      "qy": null,
+      "pka": 7.1,
+      "maturation": null,
+      "lifetime": null,
+      "brightness": null
+    }
+  ],
+  "transitions": [],
+  "doi": "10.1038/28190"
+}

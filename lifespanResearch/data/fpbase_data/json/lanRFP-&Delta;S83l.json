@@ -1,0 +1,30 @@
+{
+  "uuid": "GNV89",
+  "name": "lanRFP-&Delta;S83l",
+  "slug": "lanrfp-deltas83l",
+  "seq": "MPLPATHDLHISGSINGHEFDLEGSGKGNAKEGYQELHLKSNKGDLSFSPWILVPNIGYGFYQYLPFPDGAMSPYQAAMHDGGYVMHRSMQFEDGAMLHSDHRYIYKGNHIKGEFRLTGSGFPADGPVMTNSLTAADWCVDKLLYPNDNTIIGKFDWTYTTTSGKRYQSDVQTNVTFGKPIAADILKKQPMFVFRKVELKHTKTELNFKQWQKAFQDIA",
+  "ipg_id": null,
+  "genbank": null,
+  "uniprot": null,
+  "pdb": [
+    "4JGE"
+  ],
+  "agg": "d",
+  "switch_type": "b",
+  "states": [
+    {
+      "slug": "lanrfp-deltas83l_default",
+      "name": "default",
+      "ex_max": 521,
+      "em_max": 592,
+      "ext_coeff": 71000,
+      "qy": 0.1,
+      "pka": 4.7,
+      "maturation": 720.0,
+      "lifetime": null,
+      "brightness": 7.1
+    }
+  ],
+  "transitions": [],
+  "doi": "10.1107/s0907444913015424"
+}

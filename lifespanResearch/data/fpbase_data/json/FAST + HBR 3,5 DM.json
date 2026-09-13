@@ -1,0 +1,28 @@
+{
+  "uuid": "TCVQR",
+  "name": "FAST + HBR 3,5 DM",
+  "slug": "fast-hbr-35-dm",
+  "seq": null,
+  "ipg_id": null,
+  "genbank": null,
+  "uniprot": null,
+  "pdb": [],
+  "agg": "m",
+  "switch_type": "b",
+  "states": [
+    {
+      "slug": "fast-hbr-35-dm_complexed",
+      "name": "Complexed",
+      "ex_max": 500,
+      "em_max": 560,
+      "ext_coeff": 53000,
+      "qy": 0.38,
+      "pka": null,
+      "maturation": null,
+      "lifetime": null,
+      "brightness": 20.14
+    }
+  ],
+  "transitions": [],
+  "doi": "10.1038/s41467-021-27334-0"
+}

@@ -1,0 +1,15 @@
+{
+  "uuid": "X8MG1",
+  "name": "spGFP 11",
+  "slug": "spgfp-11",
+  "seq": "RDHMVLHEYVNAAGIT",
+  "ipg_id": null,
+  "genbank": null,
+  "uniprot": null,
+  "pdb": [],
+  "agg": "",
+  "switch_type": "b",
+  "states": [],
+  "transitions": [],
+  "doi": "10.1038/nbt1044"
+}

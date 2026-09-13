@@ -1,0 +1,30 @@
+{
+  "uuid": "HUQ28",
+  "name": "ccGFP E6",
+  "slug": "ccgfp-e6",
+  "seq": "MSMSKQVLKEDMKMTYHMDGSVNGHYFTIEGEGTGNPFKGQQTLKLRVTKGGPLPFAFDILSPTFTYGNRVFTDYPEDMPDYFKQSLPEGYSWERTMMYDDGASATASARISLDKNGFVHKSTFHGENFPANGPVMKKKGVNWEPSSETITASDGILKGDVTMFLVLEGGQRLKALFQTTYKANKVVKMPPRHKIEHRLVRSEDGDTVQLQEHAVAKYFTV",
+  "ipg_id": null,
+  "genbank": null,
+  "uniprot": null,
+  "pdb": [
+    "8U21"
+  ],
+  "agg": "m",
+  "switch_type": "b",
+  "states": [
+    {
+      "slug": "ccgfp-e6_default",
+      "name": "default",
+      "ex_max": 501,
+      "em_max": 520,
+      "ext_coeff": null,
+      "qy": null,
+      "pka": null,
+      "maturation": null,
+      "lifetime": null,
+      "brightness": null
+    }
+  ],
+  "transitions": [],
+  "doi": "10.1038/s41598-021-98149-8"
+}

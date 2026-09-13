@@ -1,0 +1,30 @@
+{
+  "uuid": "R3OET",
+  "name": "Enhanced Cyan-Emitting GFP",
+  "slug": "enhanced-cyan-emitting-gfp",
+  "seq": "MSKGEELFTGVVPILVELDGDVNGHRFSVSGEGEGDATYGKLTLKFICTTGKLPVPWPTLVTTLTWGVQCFSRYPDHMKQHDFFKSAMPEGYVQERTIFFKDDGNYKTRAEVKFEGDTLVNRIELKGIDFKEDGNILGHKLEYNYISHNVYITADKQKNGIKAHFKIRHNIEDGSVQLADHYQQNTPIGDGPVLLPDNHYLSTQSALSKDPNEKRDHMVLLEFVTAAG",
+  "ipg_id": null,
+  "genbank": null,
+  "uniprot": null,
+  "pdb": [
+    "1CV7"
+  ],
+  "agg": "",
+  "switch_type": "b",
+  "states": [
+    {
+      "slug": "enhanced-cyan-emitting-gfp_default",
+      "name": "default",
+      "ex_max": 458,
+      "em_max": 485,
+      "ext_coeff": null,
+      "qy": null,
+      "pka": null,
+      "maturation": null,
+      "lifetime": null,
+      "brightness": null
+    }
+  ],
+  "transitions": [],
+  "doi": "10.1016/s0896-6273(02)01099-1"
+}

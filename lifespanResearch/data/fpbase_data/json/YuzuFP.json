@@ -1,0 +1,28 @@
+{
+  "uuid": "WQUOO",
+  "name": "YuzuFP",
+  "slug": "yuzufp",
+  "seq": "MVSKGEELFTGVVPILVELDGDVNGHKFSVRGEGEGDATNGKLTLKFICTTGKLPVPWPTLVTTLTYGVQCFSRYPDHMKRHDFFKSAMPEGYVQERTISFKDDGTYKTRAEVKFEGDTLVNRIELKGIDFKEDGNILGHKLEYNFNSSNVYITADKQKNGIKANFKIRHNVEDGSVQLADHYQQNTPIGDGPVLLPDNHYLSTQSVLSKDPNEKRDHMVLLEFVTAAGITHGMDELYKGSHHHHHH",
+  "ipg_id": null,
+  "genbank": "PV666611",
+  "uniprot": null,
+  "pdb": [],
+  "agg": "m",
+  "switch_type": "b",
+  "states": [
+    {
+      "slug": "yuzufp_default",
+      "name": "default",
+      "ex_max": 492,
+      "em_max": 511,
+      "ext_coeff": 61400,
+      "qy": 0.92,
+      "pka": 6.2,
+      "maturation": 16.0,
+      "lifetime": 2.76,
+      "brightness": 56.49
+    }
+  ],
+  "transitions": [],
+  "doi": "10.1038/s42004-025-01573-4"
+}

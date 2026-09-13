@@ -1,0 +1,28 @@
+{
+  "uuid": "OHUHS",
+  "name": "RLuc8",
+  "slug": "rluc8",
+  "seq": null,
+  "ipg_id": null,
+  "genbank": null,
+  "uniprot": null,
+  "pdb": [],
+  "agg": "",
+  "switch_type": "b",
+  "states": [
+    {
+      "slug": "rluc8_coelenterazine-400a",
+      "name": "Coelenterazine 400a",
+      "ex_max": 400,
+      "em_max": 400,
+      "ext_coeff": null,
+      "qy": null,
+      "pka": null,
+      "maturation": null,
+      "lifetime": null,
+      "brightness": null
+    }
+  ],
+  "transitions": [],
+  "doi": "10.1093/protein/gzl023"
+}

@@ -1,0 +1,28 @@
+{
+  "uuid": "6EEUG",
+  "name": "SuperNova Red",
+  "slug": "supernova-red",
+  "seq": "MEVGPALFQSDMTFKIFIDGEVNGQKFTIVADGSSKFPHGDFNVHAVCETGKLPMSWKPICHLIQYGEPFFARYPDGISHFAQECFPEGLSIDRTVRFENDGTMTSHHTYELDDTCVVSRITVNCDGFQPDGPIMRDQLVDILPSETHMFPHGPNAVRQTATIGFTTADGGKMMGHFDSKMTFNGSRAIEIPGPHFVTIITKQTRDTSDKRDHVCQREVAYAHSVPRITSAIGSDED",
+  "ipg_id": null,
+  "genbank": "AB522905",
+  "uniprot": null,
+  "pdb": [],
+  "agg": "m",
+  "switch_type": "b",
+  "states": [
+    {
+      "slug": "supernova_default",
+      "name": "default",
+      "ex_max": 579,
+      "em_max": 610,
+      "ext_coeff": 45000,
+      "qy": 0.3,
+      "pka": null,
+      "maturation": null,
+      "lifetime": null,
+      "brightness": 13.5
+    }
+  ],
+  "transitions": [],
+  "doi": "10.1038/srep02629"
+}

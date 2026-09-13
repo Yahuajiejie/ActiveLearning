@@ -1,0 +1,28 @@
+{
+  "uuid": "3G1CL",
+  "name": "iRFP713/V256C",
+  "slug": "irfp713v256c",
+  "seq": "MAEGSVARQPDLLTCDDEPIHIPGAIQPHGLLLALAADMTIVAGSDNLPELTGLAIGALIGRSAADVFDSETHNRLTIALAEPGAAVGAPITVGFTMRKDAGFIGSWHRHDQLIFLELEPPQRDVAEPQAFFRRTNSAIRRLQAAETLESACAAAAQEVRKITGFDRVMIYRFASDFSGEVIAEDRCAEVESKLGLHYPASTVPAQARRLYTINPVRIIPDINYRPVPVTPDLNPVTGRPIDLSFAILRSVSPCHLEFMRNIGMHGTMSISILRGERLWGLIVCHHRTPYYVDLDGRQACELVAQVLAWQIGVMEE",
+  "ipg_id": null,
+  "genbank": null,
+  "uniprot": null,
+  "pdb": [],
+  "agg": "d",
+  "switch_type": "b",
+  "states": [
+    {
+      "slug": "irfp713v256c_default",
+      "name": "default",
+      "ex_max": 662,
+      "em_max": 680,
+      "ext_coeff": 94000,
+      "qy": 0.145,
+      "pka": 4.5,
+      "maturation": null,
+      "lifetime": null,
+      "brightness": 13.63
+    }
+  ],
+  "transitions": [],
+  "doi": "10.1038/srep18750"
+}

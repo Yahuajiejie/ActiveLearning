@@ -1,0 +1,28 @@
+{
+  "uuid": "D4OFQ",
+  "name": "ECFP H148D",
+  "slug": "ecfp-h148d",
+  "seq": "MVSKGEELFTGVVPILVELDGDVNGHKFSVSGEGEGDATYGKLTLKFICTTGKLPVPWPTLVTTLTWGVQCFSRYPDHMKQHDFFKSAMPEGYVQERTIFFKDDGNYKTRAEVKFEGDTLVNRIELKGIDFKEDGNILGHKLEYNYISDNVYITADKQKNGIKANFKIRHNIEDGSVQLADHYQQNTPIGDGPVLLPDNHYLSTQSALSKDPNEKRDHMVLLEFVTAAGITLGMDELYK",
+  "ipg_id": null,
+  "genbank": null,
+  "uniprot": null,
+  "pdb": [],
+  "agg": "",
+  "switch_type": "b",
+  "states": [
+    {
+      "slug": "ecfp-h148d_default",
+      "name": "default",
+      "ex_max": 433,
+      "em_max": 475,
+      "ext_coeff": 3200,
+      "qy": 0.68,
+      "pka": null,
+      "maturation": null,
+      "lifetime": null,
+      "brightness": 2.18
+    }
+  ],
+  "transitions": [],
+  "doi": "10.1038/nbt945"
+}

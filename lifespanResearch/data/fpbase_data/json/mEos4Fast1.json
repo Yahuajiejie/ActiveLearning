@@ -1,0 +1,46 @@
+{
+  "uuid": "TP5Z2",
+  "name": "mEos4Fast1",
+  "slug": "meos4fast1",
+  "seq": "MVSAIKPDMRIKLRMEGNVNGHHFVIDGDGTGKPYEGKQTMDLEVKEGGPLPFAFDILTTQFHYGNRVFVKYPDNIQDYFKQSFPKGYSWERSMTFEDGGICNARNDITMEGDTFYNKVRFYGTNFPANGPVMQKKTLKWEPSTEKMYVRDGVLTGDIEMALLLEGNAHYRCDFRTTYKAKEKGVKLPGAHFVDHAIEILSHDKDYNKVKLYEHAVAHSGLPDNARR",
+  "ipg_id": null,
+  "genbank": null,
+  "uniprot": null,
+  "pdb": [],
+  "agg": "m",
+  "switch_type": "pc",
+  "states": [
+    {
+      "slug": "meos4fast1_green",
+      "name": "Green",
+      "ex_max": 505,
+      "em_max": 517,
+      "ext_coeff": 93170,
+      "qy": 0.78,
+      "pka": 5.6,
+      "maturation": 64.0,
+      "lifetime": null,
+      "brightness": 72.67
+    },
+    {
+      "slug": "meos4fast1_red",
+      "name": "Red",
+      "ex_max": 570,
+      "em_max": 580,
+      "ext_coeff": 58450,
+      "qy": 0.73,
+      "pka": 6.7,
+      "maturation": null,
+      "lifetime": null,
+      "brightness": 42.67
+    }
+  ],
+  "transitions": [
+    {
+      "from_state": "meos4fast1_green",
+      "to_state": "meos4fast1_red",
+      "trans_wave": 405
+    }
+  ],
+  "doi": "10.1002/pro.70234"
+}

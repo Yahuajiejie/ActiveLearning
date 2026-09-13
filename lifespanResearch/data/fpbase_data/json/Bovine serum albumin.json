@@ -1,0 +1,15 @@
+{
+  "uuid": "3G393",
+  "name": "Bovine serum albumin",
+  "slug": "bovine-serum-albumin",
+  "seq": null,
+  "ipg_id": null,
+  "genbank": null,
+  "uniprot": null,
+  "pdb": [],
+  "agg": "m",
+  "switch_type": "b",
+  "states": [],
+  "transitions": [],
+  "doi": "10.1016/j.molimm.2012.05.011"
+}

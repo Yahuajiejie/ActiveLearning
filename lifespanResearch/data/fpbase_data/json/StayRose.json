@@ -1,0 +1,30 @@
+{
+  "uuid": "KT9BY",
+  "name": "StayRose",
+  "slug": "stayrose",
+  "seq": "MASTPFKFQLKGTINGKSFTVEGEGEGNSHEGSHKGKYVCTSGKLPMSWAALGTSFGZGMKYYTKYPSGLKNWFHEVMPEGFTYDRHIQYKGDGSIHAKHQHFMKNGTYHNIVEFTGQDFKENSPVLTGDMNVSLPNEVQHIPRDDGVECPVTLLYPLLSDKSKCVEAHQNTICKPLHNQPAPDVPYHWIRKQYTQSKDDTEERDHICQSETLEAHL",
+  "ipg_id": null,
+  "genbank": null,
+  "uniprot": null,
+  "pdb": [
+    "9G7Q"
+  ],
+  "agg": "d",
+  "switch_type": "b",
+  "states": [
+    {
+      "slug": "stayrose_default",
+      "name": "default",
+      "ex_max": 530,
+      "em_max": 588,
+      "ext_coeff": null,
+      "qy": null,
+      "pka": null,
+      "maturation": null,
+      "lifetime": null,
+      "brightness": null
+    }
+  ],
+  "transitions": [],
+  "doi": "10.1101/2024.12.13.628370"
+}

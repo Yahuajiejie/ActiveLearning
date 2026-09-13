@@ -1,0 +1,30 @@
+{
+  "uuid": "PF2S1",
+  "name": "Monomeric hyperfolder YFP",
+  "slug": "monomeric-hyperfolder-yfp",
+  "seq": "MVSKGEELFTGVVPILVELDGDVNGHKFSVRGEGEGDATNGKLTLKLISTTGKLPVPWPTLVTTLGYGLMVFARYPDHMKQHDFFKSAMPEGYVQERTISFEDDGYYKTRAEVKFEGDTLVNRIVLKGIDFKEDGNILGHKLEYNFNPHNVYITADKQKNGIKANFKIRHNVEDGGVQLADHYQQNTPIGDGPVLMPDNHYLSYQSKLSKDPNEKRDHMVLKERVTAAGITHDMNELYK",
+  "ipg_id": null,
+  "genbank": "OP373687",
+  "uniprot": null,
+  "pdb": [
+    "7UGS"
+  ],
+  "agg": "m",
+  "switch_type": "b",
+  "states": [
+    {
+      "slug": "monomeric-hyperfolder-yfp_default",
+      "name": "default",
+      "ex_max": 515,
+      "em_max": 529,
+      "ext_coeff": 124000,
+      "qy": 0.62,
+      "pka": 5.7,
+      "maturation": 27.0,
+      "lifetime": null,
+      "brightness": 76.88
+    }
+  ],
+  "transitions": [],
+  "doi": "10.1038/s41592-022-01660-7"
+}

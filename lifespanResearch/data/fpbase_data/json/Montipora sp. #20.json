@@ -1,0 +1,28 @@
+{
+  "uuid": "2TW6P",
+  "name": "Montipora sp. #20",
+  "slug": "montipora-sp-20",
+  "seq": "MSVIAKQMTYKVYMSGTVNGHYFEVEGDGKGKPYEGEQTVKLTVTKGGPLPFAWDILSPLSQYGSIPFTKYPEDIPDYVKQSFPEGYTWERIMHFEDGAVCTVSNDSSIQGNCFIYNVKISGVNFPPNGPVMQKKTQGWEPNTERLFARDGMLIGNNFMALKLEGGGHYLCEFKSTYKAKKPVRMPGYHYVDRKLDVTSHNKDYTFVEQCEISIARHSLLG",
+  "ipg_id": null,
+  "genbank": null,
+  "uniprot": null,
+  "pdb": [],
+  "agg": "",
+  "switch_type": "b",
+  "states": [
+    {
+      "slug": "montipora-sp-20_default",
+      "name": "default",
+      "ex_max": null,
+      "em_max": null,
+      "ext_coeff": null,
+      "qy": null,
+      "pka": null,
+      "maturation": null,
+      "lifetime": null,
+      "brightness": null
+    }
+  ],
+  "transitions": [],
+  "doi": "10.1038/nbt1207"
+}

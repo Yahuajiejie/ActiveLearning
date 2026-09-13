@@ -1,0 +1,51 @@
+{
+  "uuid": "F5GKU",
+  "name": "GCaMP6f",
+  "slug": "gcamp6f",
+  "seq": null,
+  "ipg_id": null,
+  "genbank": null,
+  "uniprot": null,
+  "pdb": [],
+  "agg": "",
+  "switch_type": "o",
+  "states": [
+    {
+      "slug": "gcamp6f_in-presence-of-ca2",
+      "name": "In presence of Ca2+",
+      "ex_max": 300,
+      "em_max": 300,
+      "ext_coeff": 66293,
+      "qy": 0.66,
+      "pka": null,
+      "maturation": null,
+      "lifetime": null,
+      "brightness": 43.75
+    },
+    {
+      "slug": "gcamp6f_in-absence-of-ca2",
+      "name": "In absence of Ca2+",
+      "ex_max": 800,
+      "em_max": 800,
+      "ext_coeff": 2761,
+      "qy": 0.57,
+      "pka": null,
+      "maturation": null,
+      "lifetime": null,
+      "brightness": 1.57
+    }
+  ],
+  "transitions": [
+    {
+      "from_state": "gcamp6f_in-presence-of-ca2",
+      "to_state": "gcamp6f_in-absence-of-ca2",
+      "trans_wave": 470
+    },
+    {
+      "from_state": "gcamp6f_in-presence-of-ca2",
+      "to_state": "gcamp6f_in-absence-of-ca2",
+      "trans_wave": 470
+    }
+  ],
+  "doi": "10.1038/nature12354"
+}

@@ -1,0 +1,31 @@
+{
+  "uuid": "B4SOW",
+  "name": "Superfolder GFP",
+  "slug": "superfolder-gfp",
+  "seq": "MSKGEELFTGVVPILVELDGDVNGHKFSVRGEGEGDATNGKLTLKFICTTGKLPVPWPTLVTTLTYGVQCFSRYPDHMKRHDFFKSAMPEGYVQERTISFKDDGTYKTRAEVKFEGDTLVNRIELKGIDFKEDGNILGHKLEYNFNSHNVYITADKQKNGIKANFKIRHNVEDGSVQLADHYQQNTPIGDGPVLLPDNHYLSTQSVLSKDPNEKRDHMVLLEFVTAAGITHGMDELYK",
+  "ipg_id": "154375264",
+  "genbank": "ASL68970",
+  "uniprot": null,
+  "pdb": [
+    "2B3P",
+    "2Q6P"
+  ],
+  "agg": "wd",
+  "switch_type": "b",
+  "states": [
+    {
+      "slug": "superfolder-gfp_default",
+      "name": "default",
+      "ex_max": 488,
+      "em_max": 510,
+      "ext_coeff": 83300,
+      "qy": 0.65,
+      "pka": null,
+      "maturation": 13.6,
+      "lifetime": 3.1,
+      "brightness": 54.15
+    }
+  ],
+  "transitions": [],
+  "doi": "10.1038/nbt1172"
+}

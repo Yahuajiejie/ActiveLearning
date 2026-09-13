@@ -1,0 +1,30 @@
+{
+  "uuid": "K782G",
+  "name": "Thermostable Green Protein",
+  "slug": "thermostable-green-protein",
+  "seq": "MGAHASVIKPEMKIKLRMEGAVNGHKFVIEGEGIGKPYEGTQTLDLTVEEGAPLPFSYDILTPAFQYGNRAFTKYPEDIPDYFKQAFPEGYSWERSMTYEDQGICIATSDITMEGDCFFYEIRFDGTNFPPNGPVMQKKTLKWEPSTEKMYVEDGVLKGDVEMALLLEGGGHYRCDFKTTYKAKKDVRLPDAHEVDHRIEILSHDKDYNKVRLYEHAEARYS",
+  "ipg_id": null,
+  "genbank": "QEQ55988.1",
+  "uniprot": null,
+  "pdb": [
+    "4TZA"
+  ],
+  "agg": "m",
+  "switch_type": "b",
+  "states": [
+    {
+      "slug": "thermostable-green-protein_excited-state",
+      "name": "Excited state",
+      "ex_max": 493,
+      "em_max": 507,
+      "ext_coeff": 64000,
+      "qy": 0.66,
+      "pka": null,
+      "maturation": 1.0,
+      "lifetime": 3.1,
+      "brightness": 42.24
+    }
+  ],
+  "transitions": [],
+  "doi": "10.1002/prot.24699"
+}

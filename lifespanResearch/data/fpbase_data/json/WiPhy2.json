@@ -1,0 +1,31 @@
+{
+  "uuid": "R4JFX",
+  "name": "WiPhy2",
+  "slug": "wiphy2",
+  "seq": "MASMTGGQQMGRGSMSRDPLPFFPPLYLGGPEITTENCEREPIHIPGSIQPHGALLTADGHSGEVLQMSLNAATFLGQEPTVLRGQTLAALLPEQWPALQAALPPGCPDALQYRATLDWPAAGHLSLTVHRVGELLILEFEPTEAWDSTGPHALRNAMSALESAPNLRALAEVATQTVRELTGFDRVMLYKFAPDATGEVIAEARREGLHAFLGHRFPASLIPAQARALYTRHLLRLTADTRAAAVPLDPVLNPQTNAPTPLGGAVLRATSPMHMQFLRNMGVGSSLSVSVVVGGQLWGLIACHHQTPYVLPPDLRTTLEYLGRELSEQVQVKEALEHHHHHH",
+  "ipg_id": null,
+  "genbank": null,
+  "uniprot": null,
+  "pdb": [
+    "4Z1W",
+    "4ZRR"
+  ],
+  "agg": "m",
+  "switch_type": "b",
+  "states": [
+    {
+      "slug": "wiphy2_pr",
+      "name": "Pr",
+      "ex_max": 696,
+      "em_max": 719,
+      "ext_coeff": null,
+      "qy": 0.087,
+      "pka": null,
+      "maturation": null,
+      "lifetime": 0.78,
+      "brightness": null
+    }
+  ],
+  "transitions": [],
+  "doi": "10.3389/fmolb.2015.00065"
+}

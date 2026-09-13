@@ -1,0 +1,28 @@
+{
+  "uuid": "6F9LH",
+  "name": "FAST",
+  "slug": "fast",
+  "seq": "MEHVAFGSEDIENTLAKMDDGQLDGLAFGAIQLDGDGNILQYNAAEGDITGRDPKQVIGKNFFKDVAPGTDSPEFYGKFKEGVASGNLNTMFEWMIPTSRGPTKVKVHMKKALSGDSYWVFVKRV",
+  "ipg_id": null,
+  "genbank": null,
+  "uniprot": null,
+  "pdb": [],
+  "agg": "m",
+  "switch_type": "",
+  "states": [
+    {
+      "slug": "fast_fast",
+      "name": "FAST",
+      "ex_max": null,
+      "em_max": null,
+      "ext_coeff": null,
+      "qy": null,
+      "pka": null,
+      "maturation": null,
+      "lifetime": null,
+      "brightness": null
+    }
+  ],
+  "transitions": [],
+  "doi": "10.1073/pnas.1513094113"
+}

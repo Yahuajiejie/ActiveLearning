@@ -1,0 +1,15 @@
+{
+  "uuid": "HOPWX",
+  "name": "PPCUM",
+  "slug": "ppcum",
+  "seq": "NRHIDCTFWQECPENISYQPHAPKSCNQAYFHPC",
+  "ipg_id": null,
+  "genbank": null,
+  "uniprot": null,
+  "pdb": [],
+  "agg": "",
+  "switch_type": "",
+  "states": [],
+  "transitions": [],
+  "doi": "10.1109/5.771073"
+}

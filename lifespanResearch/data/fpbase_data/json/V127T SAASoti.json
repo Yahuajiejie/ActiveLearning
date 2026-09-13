@@ -1,0 +1,46 @@
+{
+  "uuid": "1U9ZJ",
+  "name": "V127T SAASoti",
+  "slug": "v127t-saasoti",
+  "seq": "MALSKQYIPDDMELIFHMDGCVNGHYFTIVATGKAKPYEGKQNLKATVTKGAPLPFSTDILSTVMHYGNRCIVHYPPGILDYFKQSFPEGYSWERTFAFEDGGFCTASADIKLKDNCFIHTSMFHGTNFPADGPVMQRKTIQWEKSIEKMTVSDGIVKGDITMFLLLEGGGKYRCQFHTSYKAKKVVEMPQSHYVEHSIERTNDDGTQFELNEHAVARLNEI",
+  "ipg_id": null,
+  "genbank": null,
+  "uniprot": null,
+  "pdb": [],
+  "agg": "m",
+  "switch_type": "pc",
+  "states": [
+    {
+      "slug": "v127t-saasoti_green",
+      "name": "Green",
+      "ex_max": 509,
+      "em_max": 519,
+      "ext_coeff": 75000,
+      "qy": null,
+      "pka": null,
+      "maturation": null,
+      "lifetime": null,
+      "brightness": null
+    },
+    {
+      "slug": "v127t-saasoti_red",
+      "name": "Red",
+      "ex_max": 579,
+      "em_max": 589,
+      "ext_coeff": 24000,
+      "qy": null,
+      "pka": null,
+      "maturation": null,
+      "lifetime": null,
+      "brightness": null
+    }
+  ],
+  "transitions": [
+    {
+      "from_state": "v127t-saasoti_green",
+      "to_state": "v127t-saasoti_red",
+      "trans_wave": 405
+    }
+  ],
+  "doi": "10.1038/s41598-018-33250-z"
+}

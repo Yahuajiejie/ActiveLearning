@@ -1,0 +1,28 @@
+{
+  "uuid": "EFRBB",
+  "name": "Superfolder YFP",
+  "slug": "superfolder-yfp",
+  "seq": "MSKGEELFTGVVPILVELDGDVNGHKFSVRGEGEGDATNGKLTLKFICTTGKLPVPWPTLVTTLTYGVQCFSRYPDHMKRHDFFKSAMPEGYVQERTISFKDDGTYKTRAEVKFEGDTLVNRIELKGIDFKEDGNILGHKLEYNFNSHNVYITADKQKNGIKANFKIRHNVEDGSVQLADHYQQNTPIGDGPVLLPDNHYLSYQSVLSKDPNEKRDHMVLLEFVTAAGITHGMDELYK",
+  "ipg_id": null,
+  "genbank": null,
+  "uniprot": null,
+  "pdb": [],
+  "agg": "wd",
+  "switch_type": "b",
+  "states": [
+    {
+      "slug": "superfolder-yfp_default",
+      "name": "default",
+      "ex_max": 513,
+      "em_max": 527,
+      "ext_coeff": null,
+      "qy": null,
+      "pka": null,
+      "maturation": null,
+      "lifetime": null,
+      "brightness": null
+    }
+  ],
+  "transitions": [],
+  "doi": "10.1038/nbt1172"
+}

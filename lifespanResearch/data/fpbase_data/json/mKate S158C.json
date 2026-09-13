@@ -1,0 +1,28 @@
+{
+  "uuid": "W34KB",
+  "name": "mKate S158C",
+  "slug": "mkate-s158c",
+  "seq": "MSELIKENMHMKLYMEGTVNNHHFKCTSEGEGKPYEGTQTMRIKVVEGGPLPFAFDILATSFMYGSKTFINHTQGIPDFFKQSFPEGFTWERVTTYEDGGVLTATQDTSLQDGCLIYNVKIRGVNFPSNGPVMQKKTLGWEASTEMLYPADGGLEGRCDMALKLVGGGHLICNLKTTYRSKKPAKNLKMPGVYYVDRRLERIKEADKETYVEQHEVAVARYCDLPSKLGHK",
+  "ipg_id": null,
+  "genbank": null,
+  "uniprot": null,
+  "pdb": [],
+  "agg": "m",
+  "switch_type": "b",
+  "states": [
+    {
+      "slug": "mkate-s158c_default",
+      "name": "default",
+      "ex_max": 586,
+      "em_max": 630,
+      "ext_coeff": 63000,
+      "qy": 0.33,
+      "pka": null,
+      "maturation": null,
+      "lifetime": null,
+      "brightness": 20.79
+    }
+  ],
+  "transitions": [],
+  "doi": "10.1016/j.chembiol.2009.10.009"
+}

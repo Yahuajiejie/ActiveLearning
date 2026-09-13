@@ -1,0 +1,30 @@
+{
+  "uuid": "N6ZHS",
+  "name": "Folding Reporter GFP",
+  "slug": "folding-reporter-gfp",
+  "seq": "MSKGEELFTGVVPILVELDGDVNGHKFSVSGEGEGDATYGKLTLKFICTTGKLPVPWPTLVTTLTYGVQCFSRYPDHMKRHDFFKSAMPEGYVQERTISFKDDGNYKTRAEVKFEGDTLVNRIELKGIDFKEDGNILGHKLEYNYNSHNVYITADKQKNGIKANFKIRHNIEDGSVQLADHYQQNTPIGDGPVLLPDNHYLSTQSALSKDPNEKRDHMVLLEFVTAAGITHGMDELYK",
+  "ipg_id": null,
+  "genbank": null,
+  "uniprot": null,
+  "pdb": [
+    "2B3Q"
+  ],
+  "agg": "d",
+  "switch_type": "b",
+  "states": [
+    {
+      "slug": "folding-reporter-gfp_default",
+      "name": "default",
+      "ex_max": 490,
+      "em_max": 530,
+      "ext_coeff": 82400,
+      "qy": 0.72,
+      "pka": null,
+      "maturation": null,
+      "lifetime": null,
+      "brightness": 59.33
+    }
+  ],
+  "transitions": [],
+  "doi": "10.1038/10904"
+}

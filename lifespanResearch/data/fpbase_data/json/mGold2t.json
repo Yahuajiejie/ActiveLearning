@@ -1,0 +1,28 @@
+{
+  "uuid": "HUE6V",
+  "name": "mGold2t",
+  "slug": "mgold2t",
+  "seq": "MASKGEELFTGVVPILVELDGDINGHKFSVSGEGEGDATYGKLTLKFICTTGKLPVPWPTLVTSLGYGLQCFARYPDNMKRHDFFKSAMPEGYVQERTIFFEDDGNYKTRAEVKFEGGTLVNRVELKGIDFKEDGNILGHKLEYNYNCHNVFITADRQQNGIKVNFKIRHNIEVGGVQLADHYQQNTPIGDGPVLLPDNHYLSYQTKLSKDPNEKRDHMVLLEFVTAAGITLSMDELYK",
+  "ipg_id": null,
+  "genbank": "PP826966",
+  "uniprot": null,
+  "pdb": [],
+  "agg": "m",
+  "switch_type": "b",
+  "states": [
+    {
+      "slug": "mgold2t_default",
+      "name": "default",
+      "ex_max": 515,
+      "em_max": 527,
+      "ext_coeff": 126000,
+      "qy": 0.7,
+      "pka": 5.4,
+      "maturation": 13.1,
+      "lifetime": 2.95,
+      "brightness": 88.2
+    }
+  ],
+  "transitions": [],
+  "doi": "10.1038/s41467-025-58223-5"
+}

@@ -1,0 +1,40 @@
+{
+  "uuid": "XKELZ",
+  "name": "pHluorin, ratiometric",
+  "slug": "phluorin-ratiometric",
+  "seq": "MSKGEELFTGVVPILVELDGDVNGHKFSVSGEGEGDATYGKLTLKFICTTGKLPVPWPTLVTTFSYGVQCFSRYPDHMKRHDFFKSAMPEGYVQERTIFFKDDGNYKTRAEVKFEGDTLVNRIELKGIDFKDDGNILGHKLEYNYNEHLVYIMADKQKNGTKAIFQVHHNIEDGGVQLADHYQQNTPIGDGPVLLPDNHYLHTQSALSKDPNEKRDHMVLLEFVTAAGITHGMDELYK",
+  "ipg_id": null,
+  "genbank": "AAC40225",
+  "uniprot": null,
+  "pdb": [],
+  "agg": "",
+  "switch_type": "o",
+  "states": [
+    {
+      "slug": "phluorin-ratiometric_acidic",
+      "name": "acidic",
+      "ex_max": 475,
+      "em_max": 509,
+      "ext_coeff": null,
+      "qy": null,
+      "pka": null,
+      "maturation": null,
+      "lifetime": null,
+      "brightness": null
+    },
+    {
+      "slug": "phluorin-ratiometric_alkaline",
+      "name": "alkaline",
+      "ex_max": 395,
+      "em_max": 509,
+      "ext_coeff": null,
+      "qy": null,
+      "pka": null,
+      "maturation": null,
+      "lifetime": null,
+      "brightness": null
+    }
+  ],
+  "transitions": [],
+  "doi": "10.1038/28190"
+}

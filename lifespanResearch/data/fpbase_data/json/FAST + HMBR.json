@@ -1,0 +1,28 @@
+{
+  "uuid": "L3DPW",
+  "name": "FAST + HMBR",
+  "slug": "fast-hmbr",
+  "seq": null,
+  "ipg_id": null,
+  "genbank": null,
+  "uniprot": null,
+  "pdb": [],
+  "agg": "m",
+  "switch_type": "",
+  "states": [
+    {
+      "slug": "fast-hmbr_complexed",
+      "name": "Complexed",
+      "ex_max": 481,
+      "em_max": 540,
+      "ext_coeff": 47000,
+      "qy": 0.23,
+      "pka": null,
+      "maturation": null,
+      "lifetime": null,
+      "brightness": 10.81
+    }
+  ],
+  "transitions": [],
+  "doi": "10.1073/pnas.1513094113"
+}

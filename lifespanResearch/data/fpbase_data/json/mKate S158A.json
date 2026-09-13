@@ -1,0 +1,28 @@
+{
+  "uuid": "BRFP4",
+  "name": "mKate S158A",
+  "slug": "mkate-s158a",
+  "seq": "MSELIKENMHMKLYMEGTVNNHHFKCTSEGEGKPYEGTQTMRIKVVEGGPLPFAFDILATSFMYGSKTFINHTQGIPDFFKQSFPEGFTWERVTTYEDGGVLTATQDTSLQDGCLIYNVKIRGVNFPSNGPVMQKKTLGWEASTEMLYPADGGLEGRADMALKLVGGGHLICNLKTTYRSKKPAKNLKMPGVYYVDRRLERIKEADKETYVEQHEVAVARYCDLPSKLGHK",
+  "ipg_id": null,
+  "genbank": null,
+  "uniprot": null,
+  "pdb": [],
+  "agg": "m",
+  "switch_type": "b",
+  "states": [
+    {
+      "slug": "mkate-s158a_default",
+      "name": "default",
+      "ex_max": 585,
+      "em_max": 630,
+      "ext_coeff": 75000,
+      "qy": 0.3,
+      "pka": 5.4,
+      "maturation": null,
+      "lifetime": null,
+      "brightness": 22.5
+    }
+  ],
+  "transitions": [],
+  "doi": "10.1074/jbc.m800599200"
+}

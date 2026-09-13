@@ -1,0 +1,28 @@
+{
+  "uuid": "7BLNH",
+  "name": "Free Use GFP",
+  "slug": "free-use-gfp",
+  "seq": "MVSSGEDIFSGLVPILIELEGDVNGHRFSVRGEGYGDASNGKLEIKFICTTGRLPVPWPTLVTTLSYGVQCFAKYPEHMRQNDFFKSAMPDGYVQERTISFKEDGTYKTRAEVKFEGEALVNRIDLKGLEFKEDGNILGHKLEYSFNSHYVYITADKNRNGLEAQFRIRHNVDDGSVQLADHYQQNTPIGEGPVLLPEQHYLTTNSVLSKDPQERRDHMVLVEFVTAAGLSLGMDELYK",
+  "ipg_id": null,
+  "genbank": null,
+  "uniprot": null,
+  "pdb": [],
+  "agg": "",
+  "switch_type": "b",
+  "states": [
+    {
+      "slug": "free-use-gfp_default",
+      "name": "default",
+      "ex_max": 395,
+      "em_max": 503,
+      "ext_coeff": 27618,
+      "qy": null,
+      "pka": null,
+      "maturation": null,
+      "lifetime": null,
+      "brightness": null
+    }
+  ],
+  "transitions": [],
+  "doi": null
+}

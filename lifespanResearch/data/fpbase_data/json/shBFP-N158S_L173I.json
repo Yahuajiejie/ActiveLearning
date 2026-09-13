@@ -1,0 +1,28 @@
+{
+  "uuid": "4LKQ5",
+  "name": "shBFP-N158S/L173I",
+  "slug": "shbfp-n158sl173i",
+  "seq": "MAGLLKESMRIKMDMEGTVNGHYFKCEGEGDGNPFTGTQSMRIHVTEGAPLPFAFDILAPCCLLGSRTFIHHTAGIPDFFKQSFPEGFTWERTTTYEDGGILTAHQDTSLEGNCLIYKVKVLGTNFPADGPVMKNKSEGWEPCTEVVYPDNGVLCGRSVMALKVGDRRLICHIYSSYKSKKAIRALTMPGFHFTDIRLQMPRKKKDEYFELYEASVARYSDLPEKAN",
+  "ipg_id": null,
+  "genbank": null,
+  "uniprot": null,
+  "pdb": [],
+  "agg": "m",
+  "switch_type": "b",
+  "states": [
+    {
+      "slug": "shbfp-n158sl173i_default",
+      "name": "default",
+      "ex_max": 375,
+      "em_max": 458,
+      "ext_coeff": 24100,
+      "qy": 0.84,
+      "pka": null,
+      "maturation": null,
+      "lifetime": null,
+      "brightness": 20.24
+    }
+  ],
+  "transitions": [],
+  "doi": "10.1093/protein/gzw041"
+}

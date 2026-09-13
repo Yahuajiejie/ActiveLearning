@@ -1,0 +1,28 @@
+{
+  "uuid": "B28N7",
+  "name": "&alpha;GFP",
+  "slug": "alphagfp",
+  "seq": "MSKGEELFTGVVPILVELDGDVNGHKFSVSGEGEGDATYGKLTLKFICTTGKLPVPWPTLVTTFSYGVQCFSRYPDHMKRHDFFKSAMPEGYVQERTISFKDDGNYKTRAEVKFEGDTLVNRIELKGIDFKEDGNILGHKLEYNYNSHNVYITADKQKNGIKANFKIRHNIEDGSVQLADHYQQNTPIGDGPVLLPDNHYLSTQSALSKDPNEKRDHMVLLEFVTAAGITHGMDELYK",
+  "ipg_id": null,
+  "genbank": null,
+  "uniprot": null,
+  "pdb": [],
+  "agg": "d",
+  "switch_type": "b",
+  "states": [
+    {
+      "slug": "alphagfp_default",
+      "name": "default",
+      "ex_max": 397,
+      "em_max": 506,
+      "ext_coeff": 30000,
+      "qy": 0.79,
+      "pka": null,
+      "maturation": null,
+      "lifetime": null,
+      "brightness": 23.7
+    }
+  ],
+  "transitions": [],
+  "doi": "10.1038/nbt0396-315"
+}

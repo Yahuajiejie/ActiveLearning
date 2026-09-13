@@ -1,0 +1,28 @@
+{
+  "uuid": "AJWMF",
+  "name": "cpT-Sapphire 174-173",
+  "slug": "cpt-sapphire-174-173",
+  "seq": null,
+  "ipg_id": null,
+  "genbank": null,
+  "uniprot": null,
+  "pdb": [],
+  "agg": "",
+  "switch_type": "b",
+  "states": [
+    {
+      "slug": "cpt-sapphire-174-173_default",
+      "name": "default",
+      "ex_max": 399,
+      "em_max": 511,
+      "ext_coeff": 44000,
+      "qy": 0.53,
+      "pka": 5.2,
+      "maturation": null,
+      "lifetime": null,
+      "brightness": 23.32
+    }
+  ],
+  "transitions": [],
+  "doi": "10.1186/1472-6750-3-5"
+}

@@ -1,0 +1,28 @@
+{
+  "uuid": "T939F",
+  "name": "Fpcondchrom",
+  "slug": "fpcondchrom",
+  "seq": "MAGLLKESMRIKIYMEGTVNGYHFKCEGEGDGNPFEGTQNMRIRVTEGAPLPFAFDILSPCCAYGSKTFIKHTSGIPDYFKRSFPEGFTWEGTTIYEDGRVLTAHQDTSLEGNCPIYKVKVLGTNFPAASPVMKKVSGGWEPSTEIVYQDNGVLRGRNVMALKVSGRPPLICHLHSTYRSKKACALTMPGFHFADLRIQMPKKKKDEYFELYEASVARYSDVPEKAT",
+  "ipg_id": "1092052",
+  "genbank": "AAK71343",
+  "uniprot": "Q8MU45",
+  "pdb": [],
+  "agg": "",
+  "switch_type": "b",
+  "states": [
+    {
+      "slug": "fpcondchrom_default",
+      "name": "default",
+      "ex_max": null,
+      "em_max": null,
+      "ext_coeff": null,
+      "qy": null,
+      "pka": null,
+      "maturation": null,
+      "lifetime": null,
+      "brightness": null
+    }
+  ],
+  "transitions": [],
+  "doi": "10.1016/j.cca.2004.07.002"
+}

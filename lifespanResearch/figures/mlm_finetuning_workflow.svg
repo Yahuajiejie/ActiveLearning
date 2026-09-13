@@ -1,0 +1,274 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="1080" viewBox="0 0 1800 1080">
+  <defs>
+    <marker id="arrow-dark" markerWidth="18" markerHeight="18" refX="16" refY="9" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M 0 0 L 18 9 L 0 18 z" fill="#221916"/>
+    </marker>
+    <marker id="arrow-green" markerWidth="18" markerHeight="18" refX="16" refY="9" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M 0 0 L 18 9 L 0 18 z" fill="#1f7a4d"/>
+    </marker>
+    <filter id="soft-shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="5" stdDeviation="5" flood-color="#000000" flood-opacity="0.10"/>
+    </filter>
+    <style>
+      .font { font-family: Arial, "PingFang SC", "Microsoft YaHei", sans-serif; fill: #111111; }
+      .title { font-size: 38px; font-weight: 800; }
+      .subtitle { font-size: 22px; fill: #4b4b4b; }
+      .panel-title { font-size: 25px; font-weight: 800; }
+      .label { font-size: 22px; }
+      .small { font-size: 18px; fill: #333333; }
+      .tiny { font-size: 15px; fill: #444444; }
+      .box-stroke { stroke: #241916; stroke-width: 4; }
+      .thin-stroke { stroke: #241916; stroke-width: 3; }
+      .muted-stroke { stroke: #6b6b6b; stroke-width: 2; }
+    </style>
+  </defs>
+
+  <rect x="0" y="0" width="1800" height="1080" fill="#ffffff"/>
+
+  <text class="font title" x="70" y="72">荧光蛋白序列的掩码语言模型微调流程</text>
+  <text class="font subtitle" x="72" y="112">Domain-adaptive MLM fine-tuning of ESMC-600M for fluorescent protein representations</text>
+  <text class="font" x="70" y="153" font-size="34" font-weight="800">A</text>
+
+  <!-- Data source -->
+  <g filter="url(#soft-shadow)">
+    <ellipse cx="850" cy="210" rx="78" ry="22" fill="#ffffff" stroke="#241916" stroke-width="4"/>
+    <rect x="772" y="210" width="156" height="92" fill="#ffffff" stroke="#241916" stroke-width="4"/>
+    <ellipse cx="850" cy="302" rx="78" ry="22" fill="#ffffff" stroke="#241916" stroke-width="4"/>
+    <path d="M772 210 C772 230 928 230 928 210" fill="none" stroke="#241916" stroke-width="4"/>
+  </g>
+  <text class="font label" x="850" y="350" text-anchor="middle">FPbase sequences</text>
+  <text class="font small" x="850" y="377" text-anchor="middle">n = 1036, median length = 234 aa</text>
+
+  <!-- Left MLM pretraining panel -->
+  <rect x="130" y="190" width="535" height="745" rx="28" fill="#eafbea" stroke="none"/>
+  <rect x="130" y="190" width="535" height="745" rx="28" fill="none" stroke="#cfeccd" stroke-width="4"/>
+
+  <text class="font panel-title" x="397" y="232" text-anchor="middle">Masked Language Modeling</text>
+  <text class="font small" x="397" y="260" text-anchor="middle">15% residues are selected for reconstruction</text>
+
+  <!-- Input token row -->
+  <g>
+    <text class="font small" x="212" y="300">corrupted input</text>
+    <rect x="205" y="316" width="385" height="60" rx="18" fill="#f8fff7" class="box-stroke"/>
+    <g class="font label" text-anchor="middle">
+      <rect x="228" y="329" width="40" height="35" fill="#f0fff0" stroke="#111111" stroke-width="3"/>
+      <text x="248" y="355">M</text>
+      <rect x="286" y="329" width="40" height="35" fill="#f0fff0" stroke="#111111" stroke-width="3"/>
+      <text x="306" y="355">V</text>
+      <rect x="344" y="329" width="62" height="35" fill="#ffd6dc" stroke="#111111" stroke-width="3"/>
+      <text x="375" y="354" font-size="17">&lt;mask&gt;</text>
+      <rect x="424" y="329" width="40" height="35" fill="#f0fff0" stroke="#111111" stroke-width="3"/>
+      <text x="444" y="355">A</text>
+      <rect x="482" y="329" width="40" height="35" fill="#f0fff0" stroke="#111111" stroke-width="3"/>
+      <text x="502" y="355">E</text>
+      <rect x="540" y="329" width="40" height="35" fill="#f0fff0" stroke="#111111" stroke-width="3"/>
+      <text x="560" y="355">G</text>
+    </g>
+    <path d="M375 376 L375 398" fill="none" stroke="#ef6f6c" stroke-width="3" stroke-dasharray="6 5"/>
+    <text class="font tiny" x="498" y="401" text-anchor="middle">masked position only</text>
+  </g>
+
+  <path d="M397 404 L397 444" fill="none" stroke="#1f7a4d" stroke-width="4" marker-end="url(#arrow-green)"/>
+
+  <!-- ESMC encoder stack -->
+  <g>
+    <rect x="250" y="420" width="360" height="292" rx="22" fill="#d5ecdf" stroke="#111111" stroke-width="4"/>
+    <rect x="220" y="445" width="360" height="292" rx="22" fill="#c9e5d5" stroke="#111111" stroke-width="4"/>
+    <rect x="190" y="470" width="360" height="292" rx="22" fill="#bddfc9" stroke="#111111" stroke-width="4"/>
+
+    <rect x="265" y="510" width="210" height="56" rx="4" fill="#ffb0a8" stroke="#111111" stroke-width="4"/>
+    <text class="font label" x="370" y="547" text-anchor="middle">Self-attention</text>
+    <path d="M370 568 L370 593" fill="none" stroke="#111111" stroke-width="3" marker-end="url(#arrow-dark)"/>
+
+    <rect x="265" y="596" width="210" height="50" rx="4" fill="#d9b8f2" stroke="#111111" stroke-width="4"/>
+    <text class="font label" x="370" y="629" text-anchor="middle">Add &amp; Norm</text>
+    <path d="M370 648 L370 672" fill="none" stroke="#111111" stroke-width="3" marker-end="url(#arrow-dark)"/>
+
+    <rect x="265" y="675" width="210" height="56" rx="4" fill="#ffc9aa" stroke="#111111" stroke-width="4"/>
+    <text class="font label" x="370" y="712" text-anchor="middle">Feed Forward</text>
+
+    <path d="M232 540 L232 709 L260 709" fill="none" stroke="#111111" stroke-width="3" marker-end="url(#arrow-dark)"/>
+    <path d="M232 622 L260 622" fill="none" stroke="#111111" stroke-width="3" marker-end="url(#arrow-dark)"/>
+    <text class="font small" x="505" y="505" text-anchor="middle">x N</text>
+  </g>
+
+  <path d="M397 764 L397 795" fill="none" stroke="#1f7a4d" stroke-width="4" marker-end="url(#arrow-green)"/>
+
+  <!-- Output token row -->
+  <g>
+    <text class="font small" x="212" y="793">reconstructed sequence</text>
+    <rect x="205" y="805" width="385" height="58" rx="18" fill="#f8fff7" class="box-stroke"/>
+    <g class="font label" text-anchor="middle">
+      <rect x="228" y="818" width="40" height="35" fill="#f0fff0" stroke="#111111" stroke-width="3"/>
+      <text x="248" y="844">M</text>
+      <rect x="286" y="818" width="40" height="35" fill="#f0fff0" stroke="#111111" stroke-width="3"/>
+      <text x="306" y="844">V</text>
+      <rect x="344" y="818" width="40" height="35" fill="#e2fff0" stroke="#111111" stroke-width="3"/>
+      <text x="364" y="844">T</text>
+      <rect x="424" y="818" width="40" height="35" fill="#f0fff0" stroke="#111111" stroke-width="3"/>
+      <text x="444" y="844">A</text>
+      <rect x="482" y="818" width="40" height="35" fill="#f0fff0" stroke="#111111" stroke-width="3"/>
+      <text x="502" y="844">E</text>
+      <rect x="540" y="818" width="40" height="35" fill="#f0fff0" stroke="#111111" stroke-width="3"/>
+      <text x="560" y="844">G</text>
+    </g>
+    <path d="M364 805 C364 775 444 775 444 805" fill="none" stroke="#ef6f6c" stroke-width="3" stroke-dasharray="6 5"/>
+    <rect x="285" y="878" width="225" height="34" rx="10" fill="#fff5ef" stroke="#ef8a4c" stroke-width="2"/>
+    <text class="font tiny" x="397.5" y="900" text-anchor="middle">MLM loss on masked residues</text>
+  </g>
+
+  <text class="font small" x="397" y="928" text-anchor="middle">ESMC-600M fine-tuning</text>
+
+  <!-- Arrow from data to MLM panel -->
+  <path d="M770 260 C725 260 700 300 630 300" fill="none" stroke="#241916" stroke-width="4" marker-end="url(#arrow-dark)"/>
+
+  <!-- Center embedding -->
+  <path d="M665 560 L720 560" fill="none" stroke="#241916" stroke-width="4" marker-end="url(#arrow-dark)"/>
+
+  <g>
+    <rect x="735" y="468" width="235" height="168" rx="16" fill="#eef7ff" stroke="none"/>
+    <g transform="translate(760 493)">
+      <rect x="0" y="0" width="28" height="28" fill="#676767"/>
+      <rect x="31" y="0" width="28" height="28" fill="#d6d6d6"/>
+      <rect x="62" y="0" width="28" height="28" fill="#bbbbbb"/>
+      <rect x="93" y="0" width="28" height="28" fill="#525252"/>
+      <rect x="124" y="0" width="28" height="28" fill="#d1d1d1"/>
+      <rect x="155" y="0" width="28" height="28" fill="#6d6d6d"/>
+
+      <rect x="0" y="31" width="28" height="28" fill="#d1d1d1"/>
+      <rect x="31" y="31" width="28" height="28" fill="#090909"/>
+      <rect x="62" y="31" width="28" height="28" fill="#6a6a6a"/>
+      <rect x="93" y="31" width="28" height="28" fill="#efefef"/>
+      <rect x="124" y="31" width="28" height="28" fill="#a0a0a0"/>
+      <rect x="155" y="31" width="28" height="28" fill="#111111"/>
+
+      <rect x="0" y="62" width="28" height="28" fill="#c5c5c5"/>
+      <rect x="31" y="62" width="28" height="28" fill="#2d2d2d"/>
+      <rect x="62" y="62" width="28" height="28" fill="#efefef"/>
+      <rect x="93" y="62" width="28" height="28" fill="#666666"/>
+      <rect x="124" y="62" width="28" height="28" fill="#b9b9b9"/>
+      <rect x="155" y="62" width="28" height="28" fill="#343434"/>
+
+      <rect x="0" y="93" width="28" height="28" fill="#eeeeee"/>
+      <rect x="31" y="93" width="28" height="28" fill="#4b4b4b"/>
+      <rect x="62" y="93" width="28" height="28" fill="#dedede"/>
+      <rect x="93" y="93" width="28" height="28" fill="#191919"/>
+      <rect x="124" y="93" width="28" height="28" fill="#dcdcdc"/>
+      <rect x="155" y="93" width="28" height="28" fill="#7a7a7a"/>
+    </g>
+    <text class="font panel-title" x="852" y="673" text-anchor="middle">Fine-tuned ESMC</text>
+    <text class="font label" x="852" y="704" text-anchor="middle">embedding</text>
+    <text class="font small" x="852" y="733" text-anchor="middle">per-residue or fixed-length</text>
+  </g>
+
+  <!-- Branching arrows -->
+  <path d="M970 560 L1018 560" fill="none" stroke="#241916" stroke-width="4" marker-end="url(#arrow-dark)"/>
+  <path d="M1020 560 C1040 560 1040 250 1080 250" fill="none" stroke="#241916" stroke-width="4" marker-end="url(#arrow-dark)"/>
+  <path d="M1020 560 C1040 560 1040 545 1080 545" fill="none" stroke="#241916" stroke-width="4" marker-end="url(#arrow-dark)"/>
+  <path d="M1020 560 C1040 560 1040 835 1080 835" fill="none" stroke="#241916" stroke-width="4" marker-end="url(#arrow-dark)"/>
+
+  <!-- Right panel 1: evaluation -->
+  <g>
+    <rect x="1080" y="130" width="620" height="250" rx="20" fill="#fffdf8" class="box-stroke"/>
+    <rect x="1235" y="96" width="310" height="72" fill="#ffffff" class="box-stroke"/>
+    <text class="font panel-title" x="1390" y="125" text-anchor="middle">MLM evaluation</text>
+    <text class="font small" x="1390" y="153" text-anchor="middle">masked token prediction</text>
+
+    <!-- loss chart -->
+    <text class="font small" x="1132" y="205">Validation loss</text>
+    <line x1="1132" y1="320" x2="1346" y2="320" class="muted-stroke"/>
+    <line x1="1132" y1="320" x2="1132" y2="225" class="muted-stroke"/>
+    <polyline points="1132,240 1143,258 1154,268 1165,274 1176,285 1187,282 1198,299 1209,298 1220,306 1231,313 1242,316 1253,321 1264,320 1275,328 1286,323 1297,328 1308,324 1319,325 1330,327 1341,330"
+              fill="none" stroke="#ef6f6c" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="1341" cy="330" r="6" fill="#ef6f6c"/>
+    <text class="font tiny" x="1130" y="343">1</text>
+    <text class="font tiny" x="1328" y="343">20</text>
+
+    <!-- accuracy chart -->
+    <text class="font small" x="1432" y="205">Masked accuracy</text>
+    <line x1="1432" y1="320" x2="1646" y2="320" class="muted-stroke"/>
+    <line x1="1432" y1="320" x2="1432" y2="225" class="muted-stroke"/>
+    <polyline points="1432,305 1443,291 1454,282 1465,275 1476,266 1487,265 1498,253 1509,255 1520,248 1531,244 1542,240 1553,234 1564,236 1575,225 1586,232 1597,226 1608,228 1619,228 1630,226 1641,225"
+              fill="none" stroke="#2e9cca" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="1641" cy="225" r="6" fill="#2e9cca"/>
+    <text class="font tiny" x="1430" y="343">1</text>
+    <text class="font tiny" x="1628" y="343">20</text>
+
+    <rect x="1132" y="345" width="230" height="40" rx="10" fill="#ffeceb" stroke="#ef6f6c" stroke-width="2"/>
+    <text class="font small" x="1247" y="371" text-anchor="middle">0.891 -> 0.281</text>
+    <rect x="1432" y="345" width="230" height="40" rx="10" fill="#eaf7fd" stroke="#2e9cca" stroke-width="2"/>
+    <text class="font small" x="1547" y="371" text-anchor="middle">75.2% -> 92.4%</text>
+  </g>
+
+  <!-- Right panel 2: downstream regression -->
+  <g>
+    <rect x="1080" y="430" width="620" height="235" rx="20" fill="#fbfbff" class="box-stroke"/>
+    <rect x="1205" y="396" width="370" height="72" fill="#ffffff" class="box-stroke"/>
+    <text class="font panel-title" x="1390" y="425" text-anchor="middle">Embedding for lifespan model</text>
+    <text class="font small" x="1390" y="453" text-anchor="middle">representation transfer</text>
+
+    <!-- stylized protein ribbon -->
+    <path d="M1130 560 C1165 488 1220 500 1195 565 C1170 640 1265 650 1240 550 C1225 485 1285 480 1310 530"
+          fill="none" stroke="#24c6dc" stroke-width="5" stroke-linecap="round"/>
+    <path d="M1155 566 C1190 545 1230 545 1275 575" fill="none" stroke="#24c6dc" stroke-width="5" stroke-linecap="round"/>
+    <circle cx="1160" cy="555" r="11" fill="#ffffff" stroke="#111111" stroke-width="2"/>
+    <text class="font tiny" x="1160" y="561" text-anchor="middle">T</text>
+    <circle cx="1240" cy="545" r="11" fill="#ffffff" stroke="#111111" stroke-width="2"/>
+    <text class="font tiny" x="1240" y="551" text-anchor="middle">R</text>
+
+    <path d="M1330 552 C1370 520 1410 520 1450 552" fill="none" stroke="#f58bb9" stroke-width="6" stroke-linecap="round"/>
+    <text class="font small" x="1390" y="603" text-anchor="middle">fixed-length vector</text>
+
+    <line x1="1495" y1="608" x2="1638" y2="608" stroke="#111111" stroke-width="3"/>
+    <line x1="1495" y1="608" x2="1495" y2="500" stroke="#111111" stroke-width="3"/>
+    <circle cx="1515" cy="585" r="7" fill="#4d88ff"/>
+    <circle cx="1548" cy="562" r="7" fill="#4d88ff"/>
+    <circle cx="1585" cy="542" r="7" fill="#4d88ff"/>
+    <circle cx="1615" cy="515" r="7" fill="#4d88ff"/>
+    <path d="M1508 590 C1545 565 1585 545 1628 510" fill="none" stroke="#ef6f6c" stroke-width="4"/>
+    <text class="font small" x="1570" y="641" text-anchor="middle">lifetime prediction</text>
+  </g>
+
+  <!-- Right panel 3: active learning loop -->
+  <g>
+    <rect x="1080" y="725" width="620" height="250" rx="20" fill="#fffaf3" class="box-stroke"/>
+    <rect x="1210" y="691" width="360" height="72" fill="#ffffff" class="box-stroke"/>
+    <text class="font panel-title" x="1390" y="720" text-anchor="middle">Variant design loop</text>
+    <text class="font small" x="1390" y="748" text-anchor="middle">next-stage active learning</text>
+
+    <!-- Circular loop -->
+    <path d="M1235 835 C1260 790 1325 785 1360 825" fill="none" stroke="#1f7a4d" stroke-width="5" marker-end="url(#arrow-green)"/>
+    <path d="M1365 865 C1335 915 1268 910 1235 870" fill="none" stroke="#1f7a4d" stroke-width="5" marker-end="url(#arrow-green)"/>
+    <rect x="1145" y="805" width="135" height="50" rx="10" fill="#eafbea" stroke="#1f7a4d" stroke-width="3"/>
+    <text class="font small" x="1212.5" y="837" text-anchor="middle">predict</text>
+    <rect x="1325" y="805" width="135" height="50" rx="10" fill="#eaf7fd" stroke="#2e9cca" stroke-width="3"/>
+    <text class="font small" x="1392.5" y="837" text-anchor="middle">select</text>
+    <rect x="1235" y="900" width="135" height="50" rx="10" fill="#fff0e5" stroke="#ef8a4c" stroke-width="3"/>
+    <text class="font small" x="1302.5" y="932" text-anchor="middle">validate</text>
+
+    <!-- Candidate variants -->
+    <g class="font tiny" text-anchor="middle">
+      <rect x="1500" y="795" width="40" height="34" fill="#fff" stroke="#111" stroke-width="2"/>
+      <text x="1520" y="818">V1</text>
+      <rect x="1550" y="795" width="40" height="34" fill="#fff" stroke="#111" stroke-width="2"/>
+      <text x="1570" y="818">V2</text>
+      <rect x="1600" y="795" width="40" height="34" fill="#fff" stroke="#111" stroke-width="2"/>
+      <text x="1620" y="818">V3</text>
+      <rect x="1500" y="845" width="40" height="34" fill="#fff" stroke="#111" stroke-width="2"/>
+      <text x="1520" y="868">V4</text>
+      <rect x="1550" y="845" width="40" height="34" fill="#fff8d7" stroke="#111" stroke-width="2"/>
+      <text x="1570" y="868">V5</text>
+      <rect x="1600" y="845" width="40" height="34" fill="#fff" stroke="#111" stroke-width="2"/>
+      <text x="1620" y="868">V6</text>
+    </g>
+    <path d="M1465 850 L1490 850" fill="none" stroke="#241916" stroke-width="4" marker-end="url(#arrow-dark)"/>
+    <text class="font small" x="1570" y="925" text-anchor="middle">candidate fluorescent</text>
+    <text class="font small" x="1570" y="953" text-anchor="middle">protein variants</text>
+  </g>
+
+  <!-- Figure note -->
+  <line x1="70" y1="1020" x2="1730" y2="1020" stroke="#111111" stroke-width="2"/>
+  <text class="font small" x="70" y="1048">
+    Current evidence: stable MLM convergence on fluorescent protein sequences; downstream lifetime prediction should be evaluated with a separate supervised test set.
+  </text>
+</svg>

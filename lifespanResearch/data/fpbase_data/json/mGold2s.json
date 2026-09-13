@@ -1,0 +1,28 @@
+{
+  "uuid": "CGRMD",
+  "name": "mGold2s",
+  "slug": "mgold2s",
+  "seq": "MASKGEELFTGVVPILVELDGDINGHKFSVSGEGEGDATYGKLTLKFICTTGKLPVPWPTLVTSLGYGLQCFARYPDNMKRHDFFKSAMPEGYVQERTIFFEDDGNYKTRAEVKFEGGTLVNRVELKGIDFKEDGNILGHKLEYNYNCHNVFITADRQQNGIKVNFKIRHNIEVGGVQLADHYQQNTPIGDGPVLLPDNHYLSYQSKLSKDPNEKRDHMVLLEFVTAAGITLSMDELYK",
+  "ipg_id": null,
+  "genbank": "PP826965",
+  "uniprot": null,
+  "pdb": [],
+  "agg": "m",
+  "switch_type": "b",
+  "states": [
+    {
+      "slug": "mgold2s_default",
+      "name": "default",
+      "ex_max": 517,
+      "em_max": 529,
+      "ext_coeff": 131000,
+      "qy": 0.69,
+      "pka": 5.1,
+      "maturation": 14.8,
+      "lifetime": 3.04,
+      "brightness": 90.39
+    }
+  ],
+  "transitions": [],
+  "doi": "10.1038/s41467-025-58223-5"
+}

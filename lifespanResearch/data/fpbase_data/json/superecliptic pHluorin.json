@@ -1,0 +1,28 @@
+{
+  "uuid": "1Q7JU",
+  "name": "superecliptic pHluorin",
+  "slug": "superecliptic-phluorin",
+  "seq": "MSKGEELFTGVVPILVELDGDVNGHKFSVSGEGEGDATYGKLTLKFICTTGKLPVPWPTLVTTLTYGVQCFSRYPDHMKRHDFFKSAMPEGYVQERTIFFKDDGNYKTRAEVKFEGDTLVNRIELKGIDFKEDGNILGHKLEYNYNDHQVYIMADKQKNGIKANFKIRHNIEDGGVQLADHYQQNTPIGDGPVLLPDNHYLFTTSTLSKDPNEKRDHMVLLEFVTAAGITHGMDELYK",
+  "ipg_id": null,
+  "genbank": "AY533296",
+  "uniprot": null,
+  "pdb": [],
+  "agg": "",
+  "switch_type": "o",
+  "states": [
+    {
+      "slug": "superecliptic-phluorin_default",
+      "name": "default",
+      "ex_max": 488,
+      "em_max": 511,
+      "ext_coeff": 37000,
+      "qy": 0.8,
+      "pka": 7.0,
+      "maturation": null,
+      "lifetime": null,
+      "brightness": 29.6
+    }
+  ],
+  "transitions": [],
+  "doi": "10.1016/s0896-6273(02)00975-3"
+}

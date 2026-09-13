@@ -1,0 +1,28 @@
+{
+  "uuid": "OGT27",
+  "name": "pFAST + HBR 2,5 DM",
+  "slug": "pfast-hbr-25-dm",
+  "seq": null,
+  "ipg_id": null,
+  "genbank": null,
+  "uniprot": null,
+  "pdb": [],
+  "agg": "m",
+  "switch_type": "b",
+  "states": [
+    {
+      "slug": "pfast-hbr-25-dm-aka-match550_pfast",
+      "name": "pFAST",
+      "ex_max": 498,
+      "em_max": 549,
+      "ext_coeff": null,
+      "qy": null,
+      "pka": null,
+      "maturation": null,
+      "lifetime": null,
+      "brightness": null
+    }
+  ],
+  "transitions": [],
+  "doi": "10.1038/s41592-023-01988-8"
+}

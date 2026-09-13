@@ -1,0 +1,28 @@
+{
+  "uuid": "4BUSQ",
+  "name": "Pp2 FbFP",
+  "slug": "pp2-fbfp",
+  "seq": "MINAKLLQLMVEHSNDGIVVAEQEGNESILIYVNPAFERLTGYCADDILYQDARFLQGEDHDQPGIAIIREAIREGRPCCQVLRNYRKDGSLFWNELSITPVHNEADQLTYYIGIQRDVTAQVFAEERVRELEAEVAELRRQQGQAKH",
+  "ipg_id": "AEV23113.1",
+  "genbank": "SKB92435.1",
+  "uniprot": "Q88JB0",
+  "pdb": [],
+  "agg": "d",
+  "switch_type": "b",
+  "states": [
+    {
+      "slug": "pp2-fbfp_default",
+      "name": "default",
+      "ex_max": 449,
+      "em_max": 495,
+      "ext_coeff": 14200,
+      "qy": 0.22,
+      "pka": null,
+      "maturation": null,
+      "lifetime": null,
+      "brightness": 3.12
+    }
+  ],
+  "transitions": [],
+  "doi": "10.1039/c3pp50414j"
+}

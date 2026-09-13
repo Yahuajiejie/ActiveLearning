@@ -1,0 +1,28 @@
+{
+  "uuid": "QPK3T",
+  "name": "mTurquoise2_T203Y",
+  "slug": "mturquoise2_t203y",
+  "seq": "VSKGEELFTGVVPILVELDGDVNGHKFSVSGEGEGDATYGKLTLKFICTTGKLPVPWPTLVTTLSWGVQCFARYPDHMKQHDFFKSAMPEGYVQERTIFFKDDGNYKTRAEVKFEGDTLVNRIELKGIDFKEDGNILGHKLEYNYFSDNVYITADKQKNGIKANFKIRHNIEDGGVQLADHYQQNTPIGDGPVLLPDNHYLSYQSKLSKDPNEKRDHMVLLEFVTAAGITLGMDELYK",
+  "ipg_id": null,
+  "genbank": null,
+  "uniprot": null,
+  "pdb": [],
+  "agg": "m",
+  "switch_type": "b",
+  "states": [
+    {
+      "slug": "mturquoise2_t203y_default",
+      "name": "default",
+      "ex_max": 471,
+      "em_max": 514,
+      "ext_coeff": 27400,
+      "qy": 0.23,
+      "pka": 4.8,
+      "maturation": null,
+      "lifetime": 1.9,
+      "brightness": 6.3
+    }
+  ],
+  "transitions": [],
+  "doi": "10.7554/elife.105086"
+}
