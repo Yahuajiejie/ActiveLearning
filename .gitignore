@@ -1,0 +1,21 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Jupyter
+.ipynb_checkpoints/
+
+# matplotlib local cache
+.matplotlib/
+
+# 软链接（如果你想禁止git追踪symlink）
+# 注意：git本身不能直接忽略symlink类型，只能写文件名匹配；下面只是示例，按需改
+# path/to/your-symlink
+
+# Python通用补充（可选）
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
